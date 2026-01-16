@@ -1,0 +1,6 @@
+dependency_missing: >
+  "[{mainMod}] ERROR: Dependency {dependency} is either missing or loaded after the {mainMod}."
+
+page_name: Detailed Past
+page_description: |
+  Adds new chargen options.
