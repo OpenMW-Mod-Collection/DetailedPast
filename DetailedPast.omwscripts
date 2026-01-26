@@ -1,4 +1,3 @@
-PLAYER, NPC, CREATURE: scripts/DetailedPast/actor.lua
+PLAYER: scripts/DetailedPast/player.lua
 
 MENU: scripts/DetailedPast/settingsMenu.lua
-GLOBAL: scripts/DetailedPast/settingsGlobal.lua

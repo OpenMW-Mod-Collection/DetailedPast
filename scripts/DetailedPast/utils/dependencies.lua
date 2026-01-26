@@ -1,23 +1,36 @@
 local core = require("openmw.core")
 
-local l10n = core.l10n("DetailedPast")
-local mainMod = "Detailed Past"
-
 ---@param player any
----@param dependencies table { key = file_name, value = boolean indicating whether required interface is missing }
--- e.g. { ["Impact Effects.omwscripts"] = I.impactEffects == nil }  
--- 
--- if mod has no interfaces, set it's value to false  
--- e.g. { ["Some Mod.omwscripts"] = false }
-function CheckDependencies(player, dependencies)
-    for fileName, interfaceMissing in pairs(dependencies) do
-        local filePresent = core.contentFiles.has(string.lower(fileName))
-        if not filePresent or interfaceMissing then
-            local msg = l10n("dependency_missing", {
-                mainMod = mainMod,
-                dependency = fileName
+---@param namespace string
+---@param requiredPlugin string
+---@param interface any
+---@param minVersion number
+---@param curVersion number
+function CheckDependency(player, namespace, requiredPlugin, interface, minVersion, curVersion)
+    local prefix = ("[%s] Dependency error: "):format(namespace)
+
+    local checks = {
+        {
+            ok = core.contentFiles.has(requiredPlugin:lower()),
+            msg = ("'%s' dependecy not found."):format(requiredPlugin)
+        },
+        {
+            ok = interface ~= nil,
+            msg = ("'%s' has to be loaded before this mod."):format(requiredPlugin)
+        },
+        {
+            ok = curVersion >= minVersion,
+            msg = ("'%s' version too low. Required %s, found %s.")
+                :format(requiredPlugin, tostring(minVersion), tostring(curVersion))
+        }
+    }
+
+    for _, c in ipairs(checks) do
+        if not c.ok then
+            player:sendEvent("ShowMessage", {
+                message = prefix .. c.msg,
             })
-            player:sendEvent('ShowMessage', { message = msg })
+            error(prefix .. c.msg)
         end
     end
 end
