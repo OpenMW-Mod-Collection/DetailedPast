@@ -1,1 +1,1 @@
-# Lineage and Culture (OpenMW)
+# Detailed Past - Lineage, Culture and Worshipped Deities (OpenMW)

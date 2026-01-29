@@ -1,0 +1,899 @@
+lineages:
+  - id: none
+    name: -None-
+    description: null
+  - id: spriggan
+    name: Spriggan
+    description: Spriggans are a race of humanoid tree-spirits.
+    abilities:
+      - mtrLineage_Spriggan
+  - id: nymph
+    name: Nymph
+    description: Nymphs are a race of humanoid fae species.
+    abilities:
+      - mtrLineage_Nymph
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: dragon
+    name: Dragon
+    description: Dragons are intelligent race of large flying reptiles.
+    abilities:
+      - mtrLineage_Dragon
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -10
+  - id: aureal
+    name: Aureal
+    description:
+      Aureals, also known as Golden Saints, are a humanoid race of golden-skinned
+      daedra usually serving Sheogorath.
+    abilities:
+      - mtrLineage_Aureal
+  - id: auroran
+    name: Auroran
+    description: Aurorans are a humanoid race of daedra serving Meridia.
+    abilities:
+      - mtrLineage_Auroran
+  - id: dremora
+    name: Dremora
+    description: Dremoras are a humanoid race of daedra serving Mehrunes Dagon.
+    abilities:
+      - mtrLineage_Dremora
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: herne
+    name: Herne
+    description:
+      Herne are a humanoid race of daedra related to Skaafins, Scamps and
+      Morphoids. They usually serve Clavicus Vile and Mehrunes Dagon.
+    abilities:
+      - mtrLineage_Herne
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: mazken
+    name: Mazken
+    description:
+      Mazkens, also known as Dark Seducers, are a humanoid race of purple-skinned
+      daedra usually serving Sheogorath.
+    abilities:
+      - mtrLineage_Mazken
+  - id: xivilai
+    name: Xivilai
+    description:
+      Xivilai are a humanoid race of gray-skinned daedra serving Mehrunes
+      Dagon and Molag Bal.
+    abilities:
+      - mtrLineage_Xivilai
+  - id: akaviri
+    name: Akaviri
+    description: Akaviri or Men of Akavir are a human race native to Akavir.
+    abilities:
+      - mtrLineage_Akaviri
+    statsToAlter:
+      - type: skill
+        stat: bluntWeapon
+        value: -10
+  - id: tsaesci
+    name: Tsaesci
+    description: Tsaesci are a serpent-folk of Akavir.
+    abilities:
+      - mtrLineage_Tsaesci
+    statsToAlter:
+      - type: skill
+        stat: block
+        value: -10
+  - id: tangmo
+    name: Tang Mo
+    description: Tang Mo are a monkey-folk of Akavir.
+    abilities:
+      - mtrLineage_TangMo
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: kamal
+    name: Kamal
+    description: Kamal are a snow demon race of Akavir.
+    abilities:
+      - mtrLineage_Kamal
+  - id: kapotun
+    name: Ka Po' Tun
+    description: Ka Po' Tun are a tiger-dragon-folk of Akavir.
+    abilities:
+      - mtrLineage_KaPoTun
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: sload
+    name: Sload
+    description:
+      Sload are a slug-like beast race from Coral Kingdoms of Thras south-west
+      of Tamriel.
+    abilities:
+      - mtrLineage_Sload
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -10
+  - id: minotaur
+    name: Minotaur
+    description:
+      Minotaurs are a beast race native to Cyrodiil with man body and head
+      of a bull.
+    abilities:
+      - mtrLineage_Minotaur
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: lilmothiit
+    name: Lilmothiit
+    description:
+      Lilmothiit were a nomadic fox-like beast race native to Black Marsh
+      who most likely went extinct following the Knahaten Flu epidemic.
+    abilities:
+      - mtrLineage_Lilmothiit
+  - id: lamia
+    name: Lamia
+    description: Lamias are a beast race of aquatic snakes.
+    abilities:
+      - mtrLineage_Lamia
+  - id: imga
+    name: Imga
+    description: Imgas are a beast race of apes native to Valenwood.
+    abilities:
+      - mtrLineage_Imga
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: harpy
+    name: Harpy
+    description:
+      Harpies are a beast race native to Iliac Bay area with man body and
+      bird wings.
+    abilities:
+      - mtrLineage_Harpy
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: hagraven
+    name: Hagraven
+    description: Hagravens are witches who undergone a ritual to access powerful magicka.
+    abilities:
+      - mtrLineage_Hagraven
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: grummite
+    name: Grummite
+    description: Grummites are a frog-like beast race native to the Shivering Isles.
+    abilities:
+      - mtrLineage_Grummite
+  - id: gremlin
+    name: Gremlin
+    description:
+      Gremlins are a beast race related to, and often living alongside, Goblins,
+      also known as Orc-rats.
+    abilities:
+      - mtrLineage_Gremlin
+  - id: riekling
+    name: Riekling
+    description: Rieklings are a blue-skinned beast race related to Goblins.
+    abilities:
+      - mtrLineage_Riekling
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: ogre
+    name: Ogre
+    description: Ogres are a beast race worshipping Malacath.
+    abilities:
+      - mtrLineage_Ogre
+  - id: goblin
+    name: Goblin
+    description: Goblins are a green-skinned beast race.
+    abilities:
+      - mtrLineage_Goblin
+  - id: giant
+    name: Giant
+    description: Giants are a very tall humanoid race.
+    abilities:
+      - mtrLineage_Giant
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -10
+  - id: dreugh
+    name: Dreugh
+    description: Dreughs are an octopus-like beast race.
+    abilities:
+      - mtrLineage_Dreugh
+  - id: centaur
+    name: Centaur
+    description:
+      Centaurs are a beast race with horse lower-body and head and torso
+      of a human.
+    abilities:
+      - mtrLineage_Centaur
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: sinistralmer
+    name: Sinistral Mer
+    description:
+      Sinistral Mer, also known as Lefthanded Elves, were an elven race of
+      sunken continent of Yokuda.
+    abilities:
+      - mtrLineage_Sinistral
+    statsToAlter:
+      - type: skill
+        stat: armorer
+        value: -10
+  - id: maormer
+    name: Maormer
+    description: Maormer, also known as Sea Elves, are an elven race living in Pyandonea.
+    abilities:
+      - mtrLineage_Maormer
+  - id: falmer
+    name: Falmer
+    description:
+      Falmer, also known as Snow Elves, are an almost extinct elven race
+      living in cold, remote areas.
+    abilities:
+      - mtrLineage_Falmer
+  - id: dwemer
+    name: Dwemer
+    description:
+      Dwemer, also known as Dwarves and Deep Elves, were an elven race living
+      in Morrowind and Hammerfell.
+    abilities:
+      - mtrLineage_Dwemer
+    statsToAlter:
+      - type: attribute
+        stat: luck
+        value: -10
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: ayleid
+    name: Ayleid
+    description:
+      Ayleids, also known as Wild Elves, were an elven race which created
+      an empire in Cyrodiil.
+    abilities:
+      - mtrLineage_Ayleid
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -15
+  - id: yespest
+    name: Yespest
+    description:
+      Yespest were a man tribe native to Black Marsh who most likely went
+      extinct following the Knahaten Flu epidemic.
+    abilities:
+      - mtrLineage_Yespest
+  - id: rontha
+    name: Rontha
+    description:
+      Rontha were an early man tribe of witch-hunters and spell-drinkers
+      who inhabited western Morrowind.
+    abilities:
+      - mtrLineage_Rontha
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -15
+  - id: reachmen
+    name: Reachmen
+    description:
+      Reachmen are a tribe of humans inhabiting Eastern High Rock and Western
+      Skyrim believed to be related to Bretons.
+    abilities:
+      - mtrLineage_Reachmen
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: perena
+    name: Perena
+    description:
+      Perena were an early man tribe practicing observation of the stars
+      living in Cyrodiil and Hammerfell.
+    abilities:
+      - mtrLineage_Perena
+  - id: orma
+    name: Orma
+    description: Orma were a man tribe native to Black Marsh who were born without eyes.
+    abilities:
+      - mtrLineage_Orma
+  - id: nede
+    name: Nede
+    description:
+      "Nedes were a man tribe or group of tribes inhabiting Tamriel in early
+      eras./n/nAdmixture of Nede blood flowing in your veins grants you resistance to
+      non-elemental magicka at a cost of weakness to fire. "
+    abilities:
+      - mtrLineage_Nede
+  - id: menofge
+    name: Men-of-Ge
+    description: Men-of-Ge were an early man tribe who were wiped out by the Ayleids.
+    abilities:
+      - mtrLineage_Ge
+    statsToAlter:
+      - type: attribute
+        stat: luck
+        value: -10
+  - id: kothringi
+    name: Kothringi
+    description:
+      Kothringi were a tribe of silver-skinned man native to Black Marsh
+      who most likely went extinct following Knahaten Flu epidemic. They were knows
+      as avid sailors.
+    abilities:
+      - mtrLineage_Kothringi
+    statsToAlter:
+      - type: skill
+        stat: heavyArmor
+        value: -10
+  - id: keptu
+    name: Keptu
+    description: Keptu were a tribe of early man inhabiting Hammerfell.
+    abilities:
+      - mtrLineage_Keptu
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: horwalli
+    name: Horwalli
+    description:
+      Horwalli were a man tribe native to Black Marsh who most likely went
+      extinct following the Knahaten Flu epidemic.
+    abilities:
+      - mtrLineage_Horwalli
+  - id: duraki
+    name: Duraki
+    description: Duraki were a tribe of early man living in Hammerfell.
+    abilities:
+      - mtrLineage_Duraki
+    statsToAlter:
+      - type: attribute
+        stat: luck
+        value: -10
+  - id: algemha
+    name: Al-Gemha
+    description: Al-Gemha were an early tribe of martial man living in western Cyrodiil.
+    abilities:
+      - mtrLineage_AlGemha
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -10
+  - id: alhared
+    name: Al-Hared
+    description: Al-Hared were an early tribe of shamanistic man living in eastern Cyrodiil.
+    abilities:
+      - mtrLineage_AlHared
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -10
+  - id: clannfear
+    name: Clannfear
+    description: Clannfear are a race of bipedal lizarlike daedra.
+    abilities:
+      - mtrLineage_Clannfear
+  - id: daedroth
+    name: Daedroth
+    description:
+      Daedroths are a race of bipedal crocodile-like daedra serving Molag
+      Bal and Mehrunes Dagon.
+    abilities:
+      - mtrLineage_Daedroth
+  - id: grahl
+    name: Grahl
+    description: Grahls are a race of ice trolls.
+    abilities:
+      - mtrLineage_Grahl
+  - id: harvester
+    name: Harvester
+    description:
+      Harvesters are a race of four-armed snakelike daedra serving Molag
+      Bal.
+    abilities:
+      - mtrLineage_Harvester
+    statsToAlter:
+      - type: skill
+        stat: longBlade
+        value: -10
+      - type: skill
+        stat: axe
+        value: -10
+  - id: hunger
+    name: Hunger
+    description: Hungers are a race of daedra serving Boethiah.
+    abilities:
+      - mtrLineage_Hunger
+    statsToAlter:
+      - type: skill
+        stat: restoration
+        value: -10
+  - id: imp
+    name: Imp
+    description: Imps are a race of small, winged humanoids of potentially daedric origin.
+    abilities:
+      - mtrLineage_Imp
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -10
+  - id: ogrim
+    name: Ogrim
+    description: Ogrims are a race of daedra serving Malacath.
+    abilities:
+      - mtrLineage_Ogrim
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -20
+  - id: troll
+    name: Troll
+    description: Trolls are a race of ape-like humanoids.
+    abilities:
+      - mtrLineage_Troll
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: vermai
+    name: Vermai
+    description: Vermai are a race of thoughtless daedra.
+    abilities:
+      - mtrLineage_Vermai
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -25
+      - type: attribute
+        stat: personality
+        value: -25
+  - id: wingedtwilight
+    name: Winged Twilight
+    description:
+      Winged Twilights are a race of purple-skinned, winged, harpy-like daedra
+      serving Azura.
+    abilities:
+      - mtrLineage_WingedTwilight
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -20
+  - id: flameatronach
+    name: Flame Atronach
+    description: Flame Atronachs are race of elemental daedra.
+    abilities:
+      - mtrLineage_FlameAtronach
+  - id: frostatronach
+    name: Frost Atronach
+    description: Frost Atronachs are race of elemental daedra.
+    abilities:
+      - mtrLineage_FrostAtronach
+  - id: stormatronach
+    name: Storm Atronach
+    description: Storm Atronachs are race of elemental daedra.
+    abilities:
+      - mtrLineage_StormAtronach
+  - id: naga
+    name: Naga
+    description:
+      'Naga are a breed of Argonians who live in deeper parts of Black Marsh.
+      They are described as having \"huge mouths filled with dripping needle-like fangs\". '
+    abilities:
+      - mtrLineage_Naga
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+  - id: altmer
+    name: Altmer
+    description:
+      The High Elves consider themselves the most civilized culture of Tamriel;
+      the common tongue of the Empire, Tamrielic, is based on Altmer speech and writing,
+      and most of the Empire's arts, crafts, and sciences derive from High Elven traditions.
+      Deft, intelligent, and strong-willed, High Elves are often gifted in the arcane
+      arts, and High Elves boast that their sublime physical natures make them far more
+      resistant to disease than the 'lesser races.'
+    abilities:
+      - mtrLineage_Altmer
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+    whitelistedRaces:
+      - High Elf
+  - id: altmerhalf
+    name: Half-Altmer
+    description:
+      The High Elves consider themselves the most civilized culture of Tamriel;
+      the common tongue of the Empire, Tamrielic, is based on Altmer speech and writing,
+      and most of the Empire's arts, crafts, and sciences derive from High Elven traditions.
+      Deft, intelligent, and strong-willed, High Elves are often gifted in the arcane
+      arts, and High Elves boast that their sublime physical natures make them far more
+      resistant to disease than the 'lesser races.'
+    abilities:
+      - mtrLineage_Altmer
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+  - id: argonian
+    name: Argonian
+    description:
+      "At home in water and on land, the Argonians of Black Marsh are well-suited
+      to the treacherous swamps of their homeland, with natural immunities protecting
+      them from disease and poison. The female life-phase is highly intelligent, and
+      gifted in the magical arts. The more aggressive male phase has the traits of the
+      hunter: stealth, speed, and agility. Argonians are reserved with strangers, yet
+      fiercely loyal to those they accept as friends. Like the Khajiit, Argonians are
+      limited to some headgear and no footwear."
+    abilities:
+      - mtrLineage_ArgonianPure
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: argonianhalf
+    name: Half-Argonian
+    description:
+      "At home in water and on land, the Argonians of Black Marsh are well-suited
+      to the treacherous swamps of their homeland, with natural immunities protecting
+      them from disease and poison. The female life-phase is highly intelligent, and
+      gifted in the magical arts. The more aggressive male phase has the traits of the
+      hunter: stealth, speed, and agility. Argonians are reserved with strangers, yet
+      fiercely loyal to those they accept as friends. Like the Khajiit, Argonians are
+      limited to some headgear and no footwear."
+    abilities:
+      - mtrLineage_Argonian
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+  - id: bosmer
+    name: Bosmer
+    description:
+      The Wood Elves are the various barbarian Elven clanfolk of the Western
+      Valenwood forests. These country cousins of the High Elves and Dark Elves are
+      nimble and quick in body and wit, and because of their curious natures and natural
+      agility, Wood Elves are especially suitable as scouts, agents, and thieves. But
+      most of all, the Wood Elves are known for their skills with bows; there are no
+      finer archers in all of Tamriel.
+    abilities:
+      - mtrLineage_Bosmer
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+    whitelistedRaces:
+      - Wood Elf
+  - id: bosmerhalf
+    name: Half-Bosmer
+    description:
+      The Wood Elves are the various barbarian Elven clanfolk of the Western
+      Valenwood forests. These country cousins of the High Elves and Dark Elves are
+      nimble and quick in body and wit, and because of their curious natures and natural
+      agility, Wood Elves are especially suitable as scouts, agents, and thieves. But
+      most of all, the Wood Elves are known for their skills with bows; there are no
+      finer archers in all of Tamriel.\n\nAdmixtre of Bosmer blood flowing in your veins
+      grants you bonus speed and agility at a cost of penalty to endurance and strength.
+    abilities:
+      - mtrLineage_Bosmer
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+  - id: breton
+    name: Breton
+    description:
+      Passionate and eccentric, poetic and flamboyant, intelligent and willful,
+      the Bretons feel an inborn, instinctive bond with the mercurial forces of magic
+      and the supernatural. Many great sorcerers have come out of their home province
+      of High Rock, and in addition to their quick and perceptive grasp of spellcraft,
+      enchantment, and alchemy, even the humblest of Bretons can boast a high resistance
+      to destructive and dominating magical energies.
+    abilities:
+      - mtrLineage_Breton
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+    whitelistedRaces:
+      - Breton
+  - id: bretonhalf
+    name: Half-Breton
+    description:
+      Passionate and eccentric, poetic and flamboyant, intelligent and willful,
+      the Bretons feel an inborn, instinctive bond with the mercurial forces of magic
+      and the supernatural. Many great sorcerers have come out of their home province
+      of High Rock, and in addition to their quick and perceptive grasp of spellcraft,
+      enchantment, and alchemy, even the humblest of Bretons can boast a high resistance
+      to destructive and dominating magical energies.
+    abilities:
+      - mtrLineage_Breton
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+  - id: dunmer
+    name: Dunmer
+    description:
+      In the Empire, 'Dark Elves' is the common usage, but in their Morrowind
+      homeland, they call themselves the 'Dunmer'. The dark-skinned, red-eyed Dark Elves
+      combine powerful intellect with strong and agile physiques, producing superior
+      warriors and sorcerers. On the battlefield, Dark Elves are noted for their skilled
+      and balanced integration of swordsmen, marksmen, and war wizards. In character,
+      they are grim, distrusting, and disdainful of other races.
+    abilities:
+      - mtrLineage_DunmerPure
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+      - type: attribute
+        stat: willpower
+        value: -10
+    whitelistedRaces:
+      - Dark Elf
+  - id: dunmerhalf
+    name: Half-Dunmer
+    description:
+      In the Empire, 'Dark Elves' is the common usage, but in their Morrowind
+      homeland, they call themselves the 'Dunmer'. The dark-skinned, red-eyed Dark Elves
+      combine powerful intellect with strong and agile physiques, producing superior
+      warriors and sorcerers. On the battlefield, Dark Elves are noted for their skilled
+      and balanced integration of swordsmen, marksmen, and war wizards. In character,
+      they are grim, distrusting, and disdainful of other races.
+    abilities:
+      - mtrLineage_Dunmer
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+      - type: attribute
+        stat: willpower
+        value: -10
+  - id: cyrodiil
+    name: Cyrodiil
+    description:
+      The well-educated and well-spoken native of Cyrodiil are known for
+      the discipline and training of their citizen armies. Though physically less imposing
+      than the other races, Imperials are shrewd diplomats and traders, and these traits,
+      along with their remarkable skill and training as light infantry, have enabled
+      them to subdue all the other nations and races, and to have erected the monument
+      to peace and prosperity that comprises the Glorious Empire.
+    abilities:
+      - mtrLineage_Cyrodiil
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -5
+    whitelistedRaces:
+      - Imperial
+  - id: cyrodiilhalf
+    name: Half-Cyrodiil
+    description:
+      The well-educated and well-spoken native of Cyrodiil are known for
+      the discipline and training of their citizen armies. Though physically less imposing
+      than the other races, Imperials are shrewd diplomats and traders, and these traits,
+      along with their remarkable skill and training as light infantry, have enabled
+      them to subdue all the other nations and races, and to have erected the monument
+      to peace and prosperity that comprises the Glorious Empire.
+    abilities:
+      - mtrLineage_Cyrodiil
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -5
+  - id: khajiit
+    name: Khajiit
+    description:
+      The Khajiit of Elsweyr can vary in appearance from nearly Elven to
+      the cathay-raht 'jaguar men' to the great Senche-Tiger. The most common breed
+      found in Morrowind, the suthay-raht, is intelligent, quick, and agile. Khajiit
+      of all breeds have a weakness for sweets, especially the drug known as skooma.
+      Many Khajiit disdain weapons in favor of their natural claws. They make excellent
+      thieves due to their natural agility and unmatched acrobatics ability.
+    abilities:
+      - mtrLineage_Khajiit
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+    whitelistedRaces:
+      - Khajiit
+  - id: khajiithalf
+    name: Half-Khajiit
+    description:
+      The Khajiit of Elsweyr can vary in appearance from nearly Elven to
+      the cathay-raht 'jaguar men' to the great Senche-Tiger. The most common breed
+      found in Morrowind, the suthay-raht, is intelligent, quick, and agile. Khajiit
+      of all breeds have a weakness for sweets, especially the drug known as skooma.
+      Many Khajiit disdain weapons in favor of their natural claws. They make excellent
+      thieves due to their natural agility and unmatched acrobatics ability.
+    abilities:
+      - mtrLineage_Khajiit
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+  - id: nord
+    name: Nord
+    description:
+      The citizens of Skyrim are aggressive and fearless in war, industrious
+      and enterprising in trade and exploration. Strong, stubborn, and hardy, Nords
+      are famous for their resistance to cold, even magical frost. Violence is an accepted
+      and comfortable aspect of Nord culture; Nords of all classes are skilled with
+      a variety of weapon and armor styles, and they cheerfully face battle with an
+      ecstatic ferocity that shocks and appalls their enemies.
+    abilities:
+      - mtrLineage_NordPure
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+      - type: attribute
+        stat: agility
+        value: -5
+    whitelistedRaces:
+      - Nord
+  - id: nordhalf
+    name: Half-Nord
+    description:
+      The citizens of Skyrim are aggressive and fearless in war, industrious
+      and enterprising in trade and exploration. Strong, stubborn, and hardy, Nords
+      are famous for their resistance to cold, even magical frost. Violence is an accepted
+      and comfortable aspect of Nord culture; Nords of all classes are skilled with
+      a variety of weapon and armor styles, and they cheerfully face battle with an
+      ecstatic ferocity that shocks and appalls their enemies.
+    abilities:
+      - mtrLineage_Nord
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -10
+      - type: attribute
+        stat: agility
+        value: -10
+  - id: orsimer
+    name: Orsimer
+    description:
+      These sophisticated barbarian beast peoples of the Wrothgarian and
+      Dragontail Mountains are noted for their unshakeable courage in war and their
+      unflinching endurance of hardships. Orc warriors in heavy armor are among the
+      finest front-line troops in the Empire. Most Imperial citizens regard Orc society
+      as rough and cruel, but there is much to admire in their fierce tribal loyalties
+      and generous equality of rank and respect among the sexes.
+    abilities:
+      - mtrLineage_Orsimer
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -10
+    whitelistedRaces:
+      - Orc
+  - id: orsimerhalf
+    name: Half-Orsimer
+    description:
+      These sophisticated barbarian beast peoples of the Wrothgarian and
+      Dragontail Mountains are noted for their unshakeable courage in war and their
+      unflinching endurance of hardships. Orc warriors in heavy armor are among the
+      finest front-line troops in the Empire. Most Imperial citizens regard Orc society
+      as rough and cruel, but there is much to admire in their fierce tribal loyalties
+      and generous equality of rank and respect among the sexes.
+    abilities:
+      - mtrLineage_Orsimer
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -10
+  - id: redguard
+    name: Redguard
+    description:
+      The most naturally talented warriors in Tamriel, the dark-skinned,
+      wiry-haired Redguards of Hammerfell seem born to battle, though their pride and
+      fierce independence of spirit makes them more suitable as scouts or skirmishers,
+      or as free-ranging heroes and adventurers, than as rank-and-file soldiers. In
+      addition to their cultural affinities for many weapon and armor styles, Redguards
+      are also physically blessed with hardy constitutions and quickness of foot.
+    abilities:
+      - mtrLineage_RedguardPure
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: redguardhalf
+    name: Half-Redguard
+    description:
+      The most naturally talented warriors in Tamriel, the dark-skinned,
+      wiry-haired Redguards of Hammerfell seem born to battle, though their pride and
+      fierce independence of spirit makes them more suitable as scouts or skirmishers,
+      or as free-ranging heroes and adventurers, than as rank-and-file soldiers. In
+      addition to their cultural affinities for many weapon and armor styles, Redguards
+      are also physically blessed with hardy constitutions and quickness of foot.
+    abilities:
+      - mtrLineage_Redguard
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -10
+      - type: attribute
+        stat: intelligence
+        value: -10
+      - type: attribute
+        stat: personality
+        value: -5

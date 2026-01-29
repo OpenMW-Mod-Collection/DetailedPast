@@ -1,0 +1,1884 @@
+cultures:
+  - id: none
+    name: --None--
+    description: null
+  - id: agrunornim
+    name: Agrun Ornim
+    description:
+      Agrun Ornim - \"Deep Orcs\" - are Orsimer living in the ancient Dwemer
+      strongholds of Rourken clan in Hammerfell. They adopted Dwemer fashion and wear
+      stylized beard and hairstyles of the long extinct Dwarves. More superstitious
+      inhabitants of neighbouring areas even started believin that Dwemer never disappeared,
+      but were instead turned into Orsimer as punishment for questioning the Divines.
+    abilities:
+      - mtrCultures_Agrunornim
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+    whitelistedRaces:
+      - Orc
+  - id: folrashornim
+    name: Folrash Ornim
+    description:
+      Folrash Ornim - \"Sand Orcs\" - is a term used to describe two separate,
+      but ultimately very similar nomadic cultures which came to existence due to convergent
+      evolution. Orsimer of Alik'r desert in Hammerfell and Orsimer of Ne Quin-al desert
+      in Elsweyr, though not closely related, exhibit similar traits and culture. Not
+      as strong as other Orcs due to adaption for living in harsh conditions of water
+      shortage, they took up a life of trade instead that of a fight. They are also
+      said to reject traditional Orc worship of Malacath, Mauloch, or Trinimac in favor
+      of worshipping Aedra, specifically their interpretation of Wind Goddess Kynareth.
+    abilities:
+      - mtrCultures_Folrashornim
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -10
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -10
+      - type: skill
+        stat: mediumArmor
+        value: -10
+    whitelistedRaces:
+      - Orc
+  - id: folshornim
+    name: Folsh Ornim
+    description:
+      Folsh Ornim - \"Ash Orcs\" - are barbarian, Malacath worshipping Orsimer
+      living on the island of Vvardenfell often occupying ruined Daedric Shrines and
+      ancient Dunmer strongholds.
+    abilities:
+      - mtrCultures_Folshornim
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+    whitelistedRaces:
+      - Orc
+  - id: malahkornim
+    name: Malahk Ornim
+    description:
+      Malahk Ornim are Orsimer living in valley deep between Velothi mountains
+      in western Morrowind and Nibenay in eastern Cyrodiil. Bigger than any other subrace
+      of Orcs, they are merciless raiders and barbarians worshipping Mauloch.
+    abilities:
+      - mtrCultures_Malahkornim
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+    whitelistedRaces:
+      - Orc
+  - id: sagraornim
+    name: Sagra Ornim
+    description:
+      Sagra Ornim - \"Wood Orcs\" - are Orsimer living in forests of Valenwood.
+      Smaller than other Orcs, they are expert tree-climbers and trackers. Since they
+      tend to worship Mauloch and don't adhere to the Green Pact they established a
+      strong trading contacts with local Bosmer supplying them with items made of materials
+      which gathering is forbidden for the followers of Y'ffre.
+    abilities:
+      - mtrCultures_Sagraornim
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: block
+        value: -10
+      - type: skill
+        stat: heavyArmor
+        value: -10
+      - type: skill
+        stat: mediumArmor
+        value: -10
+    whitelistedRaces:
+      - Orc
+  - id: krazornim
+    name: Kraz Ornim
+    description:
+      Kraz Ornim - \"Mountain Orcs\" - are Orsimer living in the mountain
+      ranges of High Rock. They inhabit the most recognized of Orcish entities - Orsinium
+      - and have recently rejected Malacath worship in favor of renewing of Trinimac
+      worship.
+    abilities:
+      - mtrCultures_Krazornim
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+    whitelistedRaces:
+      - Orc
+  - id: rielleie
+    name: Rielleie
+    description:
+      Rielleie - \"The Beautiful\" - are a movement aiming to shake up Altmer
+      society. They believe that Summerset Islands need let go of its past in order
+      to move forward. Rielleie methods are radical, they seek to destroy monuments
+      and murder members of aristocracy.
+    abilities:
+      - mtrCultures_Rielleie
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+    whitelistedRaces:
+      - High Elf
+  - id: dirennis
+    name: Dirennis
+    description:
+      Clan Direnni is an Altmer clan who colonized northwestern Tamriel.
+      In the past their economic and military power was formidable enough that they
+      controlled a quarter of Tamriel. Direnni are not subscribing to racial purity
+      tenets of the Alcharyai.
+    abilities:
+      - mtrCultures_Dirennis
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+  - id: meldise
+    name: Meldise
+    description:
+      Meldis - \"exiled\" - are Altmer who were banished from Summerset Islands
+      for breaking the rules of the so-called \"ideal society\". Alcharyai regard exile
+      as equivalent of death sentence.
+    abilities:
+      - mtrCultures_Meldise
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+    whitelistedRaces:
+      - High Elf
+  - id: alcharyae
+    name: Alcharyae
+    description:
+      Alcharyai - \"Highest Elves\" - are those Altmer who adhere to ancient
+      customs. Over hundreds of generations they have bred themselves into a racially
+      pure line, and are now almost identical to one another in appearance. They despise
+      other Elves as unsophisticated churls and barely consider the non-Aldmeri races
+      at all. Alcharyai have a high regard for order, they are wearing uniforms and
+      speaking in formal patterns. Their trees and their livestock have been bred to
+      be as standard and ideal as they are. They have no real names of their own, only
+      combinations of numbers. Alcharyai feel no real tenderness for one another and
+      have no concept of compassion. They are decadent and self-obsessed, aware of their
+      aristocratic position, they surround themselves with riches and treasures, the
+      works of great artists and the finest of everything, but have no real appreciation
+      for any of these things. Each of them is concerned solely with himself, and as
+      a result they do no real socializing; they meet and hold courts only to demonstrate
+      their importance and power to each other.
+    abilities:
+      - mtrCultures_Alcharyae
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+    whitelistedRaces:
+      - High Elf
+  - id: lukiul
+    name: Lukiul
+    description:
+      Lukiul or \"assimilated\" are those Argonians who abandoned or were
+      forced to abandon their traditional customs in favor of foreign culture, be that
+      of the Empire or another.
+    abilities:
+      - mtrCultures_Lukiul
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: xileel
+    name: Xileel
+    description:
+      The Xileel - Argonians native to southwestern Black Marsh - are radically
+      religious and hostile towards Septim Empire.
+    abilities:
+      - mtrCultures_Xileel
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -10
+      - type: skill
+        stat: alchemy
+        value: -10
+      - type: skill
+        stat: athletics
+        value: -10
+      - type: skill
+        stat: unarmored
+        value: -10
+    whitelistedRaces:
+      - Argonian
+  - id: bejeha
+    name: Bejeha
+    description:
+      The Bejeha - Argonians native to central and eastern Black Marsh -
+      are conservative isolationists who never accepted the Imperial control.
+    abilities:
+      - mtrCultures_Bejeha
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: nitus
+    name: Nitus
+    description:
+      The Nitus - Argonians native to northwestern Black Marsh - are a tribe
+      of exiles, heretics, criminals, and escaped slaves.
+    abilities:
+      - mtrCultures_Nitus
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: galnaresh
+    name: Galnaresh
+    description:
+      The Galnaresh - Argonians native to northeastern Black Marsh - are
+      a common victims of Dunmer slave raids and resent the Empire for turning the blind
+      eye on their misery.
+    abilities:
+      - mtrCultures_Galnaresh
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: luck
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: cayalura
+    name: Cayalura
+    description:
+      The Cayalura - Argonians native to southeastern Black Marsh - are peaceful,
+      nomadic, and isolationist.
+    abilities:
+      - mtrCultures_Cayalura
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: yersilus
+    name: Yersilus
+    description:
+      The Yersilus - Argonians native to southern Black Marsh - are brutal
+      and corrupt collaborationists working with the Empire otherwise known as Archeins.
+    abilities:
+      - mtrCultures_Yersilus
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: unarmored
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: agaceph
+    name: Agaceph
+    description:
+      Agacephs - Argonians native to central and western Black Marsh - are
+      warrior traditionalists avoiding contacts with the Empire.
+    abilities:
+      - mtrCultures_Agaceph
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: unarmored
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+    whitelistedRaces:
+      - Argonian
+  - id: chuzei
+    name: Chuzei
+    description:
+      Chuzei is one of the main divisions of Ouraanmeri - House Dunmer -
+      culture. Native to Central Morrowind they are usually associated with Great House
+      Indoril, more specifically its more progressive fraction.
+    abilities:
+      - mtrCultures_Chuzei
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: lightArmor
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: chevaram
+    name: Chev-Aram
+    description:
+      Chev-Aram is one of the main divisions of Ouraanmeri - House Dunmer
+      - culture. Native to Central Morrowind they are usually associated with Great
+      House Indoril, more specifically its more conservative fraction.
+    abilities:
+      - mtrCultures_Chevaram
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: lightArmor
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: armunan
+    name: Armun-An
+    description:
+      Armun-An is one of the main divisions of Ouraanmeri - House Dunmer
+      - culture. Native to Southwestern Morrowind they are usually associated with Great
+      House Hlaalu.
+    abilities:
+      - mtrCultures_Armunan
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: chiaddun
+    name: Chi-Addun
+    description:
+      Chi-Addun is one of the main divisions of Ouraanmeri - House Dunmer
+      - culture. Native to Northeastern Morrowind they are usually associated with Great
+      House Telvanni.
+    abilities:
+      - mtrCultures_Chiaddun
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: lightArmor
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: gahkogo
+    name: Gah-Kogo
+    description:
+      Gah-Kogo is one of the main divisions of Ouraanmeri - House Dunmer
+      - culture. Native to Southeastern Morrowind they are usually associated with Great
+      House Dres.
+    abilities:
+      - mtrCultures_Gahkogo
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: gahjulan
+    name: Gah-Julan
+    description:
+      Gah-Julan is one of the main divisions of Ouraanmeri - House Dunmer
+      - culture. Native to Northwestern Morrowind they are usually associated with Great
+      House Redoran.
+    abilities:
+      - mtrCultures_Gahjulan
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: velothi
+    name: Velothi
+    description:
+      In the long past the term Velothi was used to describe followers of
+      prophet Veloth who became the Chimer, nowadays Velothi is a designation for Ashlanders
+      who abandoned their nomadic life and settled among House Dunmer. Their Ashlander
+      cousins seem them as weak and soft, while other Dunmer see them as insignificant
+      underclass.
+    abilities:
+      - mtrCultures_Velothi
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: aradormeerm
+    name: Aradormeer'm
+    description:
+      "Ashlanders or Aradormeer are Dunmeri nomadic herder-hunters who reject
+      the Tribunal and preserve the ancient customs of the Chimer. They see material
+      wealth as purposeless. "
+    abilities:
+      - mtrCultures_Aradormeerm
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+    whitelistedRaces:
+      - Dark Elf
+  - id: orthaud
+    name: Or-Thaud
+    description:
+      The Or-Thaud are itinerant Bosmer dwelling mainly in northeastern Valenwood
+      or in exile in Hammerfell. Aggressive towards outsiders, they seek repayment of
+      wrongdoings commited against them by Altmers, Khajiits, Cyrodiils through the
+      means of raiding. Unlike most other Bosmer they favor Peryite over Y'ffre.
+    abilities:
+      - mtrCultures_Orthaud
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+    whitelistedRaces:
+      - Wood Elf
+  - id: boshau
+    name: Bos'hau
+    description:
+      The Bos'hau - inhabitants of southwestern part Valenwood province -
+      are ardent followers of the Green Pact which is however an extreme taboo in their
+      matriarchal and polygamistic society.
+    abilities:
+      - mtrCultures_Boshau
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: unarmored
+        value: -5
+    whitelistedRaces:
+      - Wood Elf
+  - id: hanae
+    name: Hanae
+    description:
+      The Hanae - inhabitants of northwestern part Valenwood province - are
+      the most rigid followers of the Green Pact and god Y'ffre.
+    abilities:
+      - mtrCultures_Hanae
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+    whitelistedRaces:
+      - Wood Elf
+  - id: anam
+    name: Anam
+    description:
+      "The Anam are inhabitants of southeastern part Valenwood province.
+      Bosmers living there enjoy fairly cosmopolitan lifestyle and are very individualistic.
+      Anam role in the society is decided from the moment they are conceived and many
+      end up as skilled artisans with no knowledge on how to perform different tasks. "
+    abilities:
+      - mtrCultures_Anam
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -10
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -10
+    whitelistedRaces:
+      - Wood Elf
+  - id: tehl
+    name: Tehl
+    description:
+      "The Tehl are inhabitants of northeastern part Valenwood province -
+      area around the city of Arenthia which borders Colovia and Elsweyr. Bosmers living
+      there enjoy more cosmopolitan lifestyle than any other inhabitants of Valenwood. "
+    abilities:
+      - mtrCultures_Tehl
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -10
+      - type: skill
+        stat: marksman
+        value: -10
+      - type: skill
+        stat: sneak
+        value: -10
+    whitelistedRaces:
+      - Wood Elf
+  - id: camorani
+    name: Camorani
+    description:
+      Camorani are a group of Bosmer loyal to the Camoran dynasty. Apart
+      from othe Bosmer both in appearance and in customs since the beginning of the
+      First Era, they are often mistaken for Altmer by outlanders. It's unclear whether
+      their towering stature is caused by eugenicist breeding or simply by powerful
+      magicka.
+    abilities:
+      - mtrCultures_Camorani
+    statsToAlter:
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+      - type: skill
+        stat: lightArmor
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: handToHand
+        value: -5
+    whitelistedRaces:
+      - Wood Elf
+  - id: yokudan
+    name: Yokudan
+    description:
+      "Yokudans are inhabitants of what is left of destroyed continent of
+      Yokuda. Sometimes they immigrate to the land of their heircousins - Hammerfell. "
+    abilities:
+      - mtrCultures_Yokudan
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: armorer
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: elinhi
+    name: Elin-Hi
+    description:
+      Elin-Hi - \"strong who delve in magic\" - are inhabitants of the area
+      around city of Elinhir in Eastern Hammerfell. Elinhir is a city of contradictions,
+      it's a home to Crown Redguard who adopted Colovian fashion and taste, it's a city
+      of soldierly people yet it's nicknamed 'The City of Mages'.
+    abilities:
+      - mtrCultures_Elinhi
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: satakalugak
+    name: Satakal'Ugak
+    description:
+      Satakals or Satakal'Ugak - \"rage-with-Satakal\" - are devotees of
+      Satakal the Serpent God. They are beggar-bandit-madmen pretending to be snakes,
+      often rolling in the dirt completely naked and attacking passersby by nipping
+      at their legs. Satakals are also known for ritual scarification, the so-called
+      skin-shedding.
+    abilities:
+      - mtrCultures_Satakalugak
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: alikr
+    name: Alik'r
+    description:
+      Dunedwellers of Alik'r are nomadic inhabitants of Hammerfell deserts.
+      They reject urban life and wander desolate land rarely coming into contact with
+      urban people.
+    abilities:
+      - mtrCultures_Alikr
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: lhotunic
+    name: Lhotunic
+    description:
+      Lhotunics is an emerging faction of Redguard society. Followers of
+      King Lhotun of Sentinel who revere Yokudan past, but respect the Imperial ways.
+      Trying to merge Crown and Forebear creeds, they achieved nothing but disdain from
+      them both.
+    abilities:
+      - mtrCultures_Lhotunic
+    statsToAlter:
+      - type: attribute
+        stat: personality
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: ragada
+    name: Ra'Gada
+    description:
+      Ra'Gada - \"warrior wave\" - also known as Forebears are Redguard descendants
+      of warrior wave of Yokudans who first reached Tamriel. They are more nomadic than
+      Na-Totambu and adopted Imperial and Breton gods - or at least their names - Crown
+      view this as outrageous non-traditional practices.
+    abilities:
+      - mtrCultures_Ragada
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: natotambu
+    name: Na-Totambu
+    description:
+      Na-Totambu - \"ruling\" - also known as Crowns are Redguard descendants
+      of old ruling class of Yokuda. They still honor the ancient Redguard ways and
+      worship traditional Yokudan divines.
+    abilities:
+      - mtrCultures_Natotambu
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+    whitelistedRaces:
+      - Redguard
+  - id: froesselvirker
+    name: Froesselvirker
+    description:
+      Froesselvirkva - also known as Winterholders, Broken-Capetonians, or
+      Hsaarikva - are inhabitants of the northeastern part of Skyrim - Hold of Winterhold
+      - which they share with Aldihaldva. Froesselvirkva manifest an old mercantile
+      spirit and hold Clever-Men in high regard.
+    abilities:
+      - mtrCultures_Froesselvirker
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+    whitelistedRaces:
+      - Nord
+  - id: nyihalder
+    name: Nyihalder
+    description:
+      "Nyihaldva or New-Holders are inhabitants of the western part of Skyrim:
+      Holds of the Reach, Haafinheim, Whiterun, Falkreath, and Hrothgar. Nyihaldva are
+      more progressive than their eastern countrymen."
+    abilities:
+      - mtrCultures_Nyihalder
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+    whitelistedRaces:
+      - Nord
+  - id: aldihalder
+    name: Aldihalder
+    description:
+      "Aldihaldva or Old-Holders are inhabitants of the eastern part of Skyrim:
+      Holds of Winterhold, Eastmarch, the Rift, and the Pale. Aldihaldva remain isolated,
+      by geography and by choice, and hold true to the ways of their forefathers."
+    abilities:
+      - mtrCultures_Aldihalder
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+    whitelistedRaces:
+      - Nord
+  - id: skaal
+    name: Skaal
+    description:
+      Skaal are inhabitants of the island of Solstheim, culturally different
+      from other Nords, Skaal believe in dualistic cosmology within monotheistic religion.
+      They feel strong connection to the land and nature, and strive for sustainability.
+    abilities:
+      - mtrCultures_Skaal
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: unarmored
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+    whitelistedRaces:
+      - Nord
+  - id: osternish
+    name: Osternish
+    description:
+      "Ostern are inhabitants of eastern part of High Rock though significant
+      minority can be found all over the province. They cherish their Merish roots and
+      aspire to establish a society based on Elven values. "
+    abilities:
+      - mtrCultures_Osternish
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+  - id: bayard
+    name: Bayard
+    description:
+      "Bayards are inhabitants of southern part of High Rock. They are the
+      most Imperialized of Breton cultures. "
+    abilities:
+      - mtrCultures_Bayard
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+  - id: normannish
+    name: Normannish
+    description:
+      "Normen are inhabitants of northern part of High Rock. Isolated from
+      other Breton and Merish influence they reject the Manmeri customs and honor their
+      ancient Nordic and Nedic heritage. "
+    abilities:
+      - mtrCultures_Normannish
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: skill
+        stat: alchemy
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: restoration
+        value: -5
+  - id: bjoulsaean
+    name: Bjoulsaean
+    description:
+      "Bjoulsae River Tribes are predominantly Breton tribes of horse nomads
+      dwelling on the plains surrounding Bjoulsae River which forms a border between
+      High Rock and Hammerfell. Redguard tribes are sometimes called Silverhoof Horsemen. "
+    abilities:
+      - mtrCultures_Bjoulsaean
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+  - id: reachmannish
+    name: Reachmannish
+    description:
+      "Reachmen are a tribe of humans inhabiting Eastern High Rock and Western
+      Skyrim believed to be related to Bretons. Neither Bretons nor Reachmen acknowledge
+      such relation and the latter are often shunned by other races. "
+    abilities:
+      - mtrCultures_Reachmannish
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+  - id: jovansa
+    name: Jovansa
+    description:
+      'Jovansa which translates to \"those who secure their future\" are
+      communities of Khajiits who are hiding their beastfolk appearance and pretend
+      to be Mer. Called Ririnajiit - \"compulsive liars\" - by other Khajiit they nonetheless
+      shave off their fur and plan conception and birth carefully to make sure the offspring
+      is of Ohmes stock. Eventhough these practices are widely frowned upon, they remain
+      entrenched in regions where attitudes towards Khajiit are hostile such as Morrowind
+      or Valenwood. '
+    abilities:
+      - mtrCultures_Jovansa
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: speed
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: athletics
+        value: -5
+      - type: skill
+        stat: handToHand
+        value: -5
+      - type: skill
+        stat: unarmored
+        value: -5
+  - id: nequinal
+    name: Ne Quin-al
+    description:
+      Ne Quin-al or Anequinans are inhabitants of kingdom of Anequina forming
+      a northern part of Elsweyr Confederacy. For the outsiders, Anequina seems to be
+      a place of uncouth barbarians, for the locals, it is a place of proud warriors.
+    abilities:
+      - mtrCultures_Nequinal
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: personality
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+      - type: skill
+        stat: shortBlade
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: enchant
+        value: -5
+      - type: skill
+        stat: speechcraft
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+  - id: paalatiin
+    name: Pa'alatiin
+    description:
+      Pa'alatiin or Pellitinians are inhabitants of kingdom of Pellitine
+      forming a southern part of Elsweyr Confederacy. For the outsiders, Pellitine seems
+      to be a place of decadence and depravity, for the locals, it is a place of merchantry
+      and wealth.
+    abilities:
+      - mtrCultures_Paalatiin
+    statsToAlter:
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+  - id: baandari
+    name: Baandari
+    description:
+      Baandari are nomadic Khajiit peddler-fortunetellers. They live by tenets
+      of their god - Baan Dar - any item not clearly belonging to someone is an item
+      they can rightfully take.
+    abilities:
+      - mtrCultures_Baandari
+    statsToAlter:
+      - type: attribute
+        stat: endurance
+        value: -5
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: skill
+        stat: heavyArmor
+        value: -5
+      - type: skill
+        stat: mediumArmor
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+  - id: rimmen
+    name: Rim-Men
+    description:
+      Rim-Men are mostly human inhabitants of The Rim - region in Elsweyr
+      on the border with Cyrodiil province. They are descendants of Akaviri banished
+      from Cyrodiil by Warlord Attrebus in Second Era. Although their Akaviri bloodline
+      thinned over the years - with traces of Cyrodiilic, Khajiiti, and perhaps even
+      Kamal blood - the old traditions are still celebrated to this day.
+    abilities:
+      - mtrCultures_Rimmen
+    statsToAlter:
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: axe
+        value: -5
+  - id: heartlander
+    name: Heartlander
+    description:
+      Heartlanders are inhabitants of The Heartlands - central part of Cyrodiil
+      province around Lake Rumare and the most lustrious city on Nirn - the Imperial
+      City. Living in a region between Nibenay Valley and Colovian Highlands they combine
+      Nibenese traditions with elements of Colovian culture.
+    abilities:
+      - mtrCultures_Heartlander
+    statsToAlter:
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: lightArmor
+        value: -5
+      - type: skill
+        stat: acrobatics
+        value: -5
+    whitelistedRaces:
+      - Imperial
+  - id: nibenese
+    name: Nibenese
+    description:
+      "Nibenese are inhabitants of Nibenay - eastern part of Cyrodiil province.
+      They are regarded as Cyrodiil's soul: magnanimous, tolerant, and administrative.
+      Nibenese excel in magicka and merchantry. They relish in garish costumes, bizarre
+      tapestries, tattoos, brandings, and elaborate ceremony."
+    abilities:
+      - mtrCultures_Nibenese
+    statsToAlter:
+      - type: attribute
+        stat: strength
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: longBlade
+        value: -5
+      - type: skill
+        stat: handToHand
+        value: -5
+      - type: skill
+        stat: spear
+        value: -5
+      - type: skill
+        stat: marksman
+        value: -5
+      - type: skill
+        stat: bluntWeapon
+        value: -5
+      - type: skill
+        stat: block
+        value: -5
+    whitelistedRaces:
+      - Imperial
+  - id: colovar
+    name: Colovar
+    description:
+      Colovari are inhabitants of northern part of Colovia - northwestern
+      part of Cyrodiil province. Main difference between them and Colovians is that
+      Colovari are extremely proud of their Nordic roots and view themselves as more
+      noble people.
+    abilities:
+      - mtrCultures_Colovar
+      - mtrCultures_Colovar2
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: agility
+        value: -5
+      - type: skill
+        stat: sneak
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: security
+        value: -5
+    whitelistedRaces:
+      - Imperial
+  - id: colovian
+    name: Colovian
+    description:
+      "Colovians are inhabitants of Colovia - western part of Cyrodiil province.
+      They are respected as Cyrodiil's iron hand: firm, unwavering, and ever-vigilant.
+      Disinclined to magic and industry they prefer bloody engagement and plunder. Colovians
+      are uncomplicated, self-sufficient, hearty, and extremely loyal to one another.
+      They favor simple clothing over extravagant costumes."
+    abilities:
+      - mtrCultures_Colovian
+    statsToAlter:
+      - type: attribute
+        stat: intelligence
+        value: -5
+      - type: attribute
+        stat: willpower
+        value: -5
+      - type: skill
+        stat: mercantile
+        value: -5
+      - type: skill
+        stat: illusion
+        value: -5
+      - type: skill
+        stat: conjuration
+        value: -5
+      - type: skill
+        stat: alteration
+        value: -5
+      - type: skill
+        stat: destruction
+        value: -5
+      - type: skill
+        stat: mysticism
+        value: -5
+    whitelistedRaces:
+      - Imperial

@@ -1,0 +1,92 @@
+cultures:
+  - id: cantemiric
+    name: Cantemiric
+    description:
+      Cantemiric Velothi are a group of Chimer and later Dunmer thought to
+      be extinct due to epidemic of Knahaten Flu. They lived on the eastern coast of
+      Argonia and possibly were worshippers of Aedric Divines, however such description
+      is dubious as rejection of Aedric reverence was behind emergence of Chimer as
+      a separate race.
+    abilities:
+      - mtrCultures_Cantemiric
+    whitelistedRaces:
+      - Dark Elf
+  - id: ashabah
+    name: Ash'abah
+    description:
+      "Ash'abah are secretive Redguard tribe who disregard religious taboo
+      for the purpose of fighting necromancy. "
+    abilities:
+      - mtrCultures_Ashabah
+    whitelistedRaces:
+      - Redguard
+  - id: corelanyai
+    name: Corelanyai
+    description:
+      Corelanya are a clan of Altmer Daedra worshippers thought to be extinct.
+      They colonized western part of what is now called Hammerfell, but were ultimately
+      defeated by Redguards.
+    abilities:
+      - mtrCultures_Corelanyai
+    whitelistedRaces:
+      - High Elf
+  - id: oshornim
+    name: Osh Ornim
+    description:
+      'Osh Ornim - \"Iron Orcs\" - are Orsimer living in the Dragontail mountains
+      of Hammerfell. It''s a society of miners, smiths, and brutal warriors. '
+    abilities:
+      - mtrCultures_Oshornim
+    whitelistedRaces:
+      - Orc
+  - id: kushragornim
+    name: Kushrag Ornim
+    description:
+      Kushrag Ornim - \"Sea Orcs\" - are Orsimer said to be living on various
+      islands on the western coast of Tamriel. One of the biggest fears of Eltheric
+      Ocean seafarers is meeting a Sea Orc vessel. Some people believe that Kushrag
+      Ornim are descendandts of Lefthanded Elves of Yokuda.
+    abilities:
+      - mtrCultures_Kushragornim
+    whitelistedRaces:
+      - Orc
+  - id: nelgragornim
+    name: Nelgrag Ornim
+    description:
+      Nelgrag Ornim - \"Swamp Orcs\" - are Orsimer said to be living in parts
+      of Black Marsh. These elusive people are rarely seen and often mistook for a rare
+      subrace of Argonians.
+    abilities:
+      - mtrCultures_Nelgragornim
+    whitelistedRaces:
+      - Orc
+  - id: ugrashornim
+    name: Ugrash Ornim
+    description:
+      'Ugrash Ornim - \"Snow Orcs\" - are Orsimer living in desolate parts
+      of Skyrim. They are isoliationistic, but peaceful people. '
+    abilities:
+      - mtrCultures_Ugrashornim
+    whitelistedRaces:
+      - Orc
+  - id: cosmopolitan
+    name: -Cosmopolitan-
+    description:
+      "Cosmopolitan is a generic culture whose followers see whole of Nirn
+      as a single community. "
+    abilities:
+      - mtrCultures_Cosmopolitan
+  - id: magocratic
+    name: -Magocratic-
+    description:
+      "Magocratic is a generic culture whose followers see pursuing knowledge
+      as a necessary part of life. "
+    abilities:
+      - mtrCultures_Magocratic
+  - id: martial
+    name: -Martial-
+    description:
+      "Martial is a generic culture whose followers see warfare as a necessary
+      part of life and way to achieve honor, glory, and valor. "
+    abilities:
+      - mtrCultures_Martial

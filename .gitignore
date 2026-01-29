@@ -3,4 +3,6 @@
 *.jpeg
 *.psd
 *.zip
-reference/
+reference
+output.yaml
+__pycache__

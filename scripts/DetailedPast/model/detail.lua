@@ -1,4 +1,4 @@
----@class CharStat
+---@class Detail
 ---@field id string
 ---@field name string
 ---@field description string
