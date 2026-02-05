@@ -8,7 +8,7 @@ require("scripts.DetailedPast.utils.table")
 ---@field id string
 ---@field name string
 ---@field description string
----@field abilies table<string>|nil
+---@field abilities table<string>|nil
 ---@field statsToAlter StatsToAlter|nil
 ---@field whitelistedRaces table<string>|nil
 local Detail = {}
@@ -50,8 +50,8 @@ local function validate(detail)
     )
 
     -- ability spell validation
-    if detail.abilies then
-        for _, ability in ipairs(detail.abilies) do
+    if detail.abilities then
+        for _, ability in ipairs(detail.abilities) do
             assert(core.magic.spells.records[ability],
                 string.format(errorTemplate,
                     "Unknown ability: " .. ability,
@@ -75,17 +75,27 @@ local function validate(detail)
 end
 
 function Detail:new(yamlData)
-    local obj            = setmetatable({}, Detail)
+    local obj = setmetatable({}, Detail)
+
     obj.id               = tostring(yamlData.id)
     obj.name             = yamlData.name
     obj.description      = yamlData.description
-    obj.abilies          = yamlData.abilities
-    obj.statsToAlter     = yamlData.statsToAlter
-        and StatsToAlter:new(yamlData.statsToAlter) or nil
-    obj.whitelistedRaces = yamlData.whitelistedRaces
+    obj.abilities        = yamlData.abilities
+    obj.whitelistedRaces = nil
+    obj.statsToAlter     = nil
 
-    if obj.whitelistedRaces then
-        for i, race in ipairs(obj.whitelistedRaces) do
+    if yamlData.statsToAlter then
+        ---@diagnostic disable-next-line: missing-fields
+        obj.statsToAlter = {}
+        for i, data in ipairs(yamlData.statsToAlter) do
+            obj.statsToAlter[i] = StatsToAlter:new(data)
+        end
+    end
+
+    if yamlData.whitelistedRaces then
+        ---@diagnostic disable-next-line: missing-fields
+        obj.whitelistedRaces = {}
+        for i, race in ipairs(yamlData.whitelistedRaces) do
             obj.whitelistedRaces[i] = raceMap[string.lower(race)] or string.lower(race)
         end
     end
@@ -97,11 +107,13 @@ end
 
 function Detail:__tostring()
     return "{" ..
-    "\n  id:               " .. self.id ..
-    "\n  name:             " .. self.name ..
-    "\n  description:      " .. self.description ..
-    "\n  abilies:          " .. self.abilies and TableToString(self.abilies, 2) or "nil" ..
-    "\n  statsToAlter:     " .. self.statsToAlter and tostring(self.statsToAlter) or "nil"..
-    "\n  whitelistedRaces: " .. self.whitelistedRaces and TableToString(self.whitelistedRaces, 2) or "nil" ..
-    "\n}"
+        "\n  id: " .. self.id ..
+        "\n  name: " .. self.name ..
+        "\n  description: " .. self.description ..
+        "\n  abilities: " .. (self.abilities and TableToString(self.abilities, 2) or "nil") ..
+        "\n  statsToAlter: " .. (self.statsToAlter and tostring(self.statsToAlter) or "nil") ..
+        "\n  whitelistedRaces: " .. (self.whitelistedRaces and TableToString(self.whitelistedRaces, 2) or "nil") ..
+        "\n}"
 end
+
+return Detail

@@ -1,7 +1,7 @@
-deities:
+deity:
   - id: none
     name: -None-
-    description: null
+    description: No worshipped deity.
   - id: akatosh
     name: Akatosh
     description:
@@ -10,7 +10,7 @@ deities:
       be the first of the Gods to form in the Beginning Place; after his establishment,
       other spirits found the process of being easier and the various pantheons of the
       world emerged. He is the ultimate God of the Cyrodilic Empire, where he embodies
-      the qualities of endurance, invincibility, and everlasting legitimacy. \n\nAkatosh
+      the qualities of endurance, invincibility, and everlasting legitimacy. nnAkatosh
       is usually venerated by Cyrodiils and Bretons. '
     abilities:
       - MTR_ByTheDivines_Akatosh
@@ -23,7 +23,7 @@ deities:
       that destroyed the last world to begin this one. Nords therefore see the god of
       time as both creator and harbinger of the apocalypse. Many Nords however insist
       that the belief he is some sort of Nordic version of Akatosh is a false one perpetuated
-      by foreigners who misunderstood Nordic oral traditions. \n\nAlduin is sometimes
+      by foreigners who misunderstood Nordic oral traditions. nnAlduin is sometimes
       venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Alduin
@@ -38,7 +38,7 @@ deities:
       the armies of Lorkhan in mythic times, vanquishing that tyrant and establishing
       the first kingdoms of the Altmer, Altmora and Old Ehlnofey. He then ascended to
       heaven in full observance of his followers so that they might learn the steps
-      needed to escape the mortal plane. \n\nAuri-El is usually venerated by Altmers
+      needed to escape the mortal plane. nnAuri-El is usually venerated by Altmers
       and Bosmers. '
     abilities:
       - MTR_ByTheDivines_Auriel
@@ -51,7 +51,7 @@ deities:
       say ''is just a real big cat''. It is said that Alkosh repelled an early Aldmeri
       pogrom of Pelinal Whitestrake during mythic times, by shouting the invader off
       the summit of Sunspire and out of Elsweyr, leaving behind a wound in the sky.
-      \n\nAlkosh is usually venerated by Khajiits. '
+      nnAlkosh is usually venerated by Khajiits. '
     abilities:
       - MTR_ByTheDivines_Alkosh
   - id: allmaker
@@ -65,21 +65,24 @@ deities:
       All-Maker favors those who hone their skills, and disfavors the greedy and lazy.
       ''Oneness'' with the land is considered crucial to pleasing the All-Maker. Firewood
       is collected from dead trees. Hunting is for subsistence, not sport. The sanctity
-      of life demands that violence only be used as a last resort. \n\nAll-Maker is
+      of life demands that violence only be used as a last resort. nnAll-Maker is
       venerated by the Skaal of Solstheim. '
     abilities:
       - MTR_ByTheDivines_Allmaker
     statsToAlter:
       - type: skill
         stat: destruction
-        value: 0
+        value: -100
+      - type: skill
+        stat: alteration
+        value: -100
   - id: adversary
     name: The Adversary
     description:
       'The Greedy Man, Thartaag the World-Devourer - is an opponent to the
       All-Maker working to corrupt the dominion of the All-Maker. The Skaal believe
       the Adversary takes delight in tormenting and testing them. Daedra are presumably
-      considered to be merely some of the many evil aspects of the Adversary. \n\nNothing
+      considered to be merely some of the many evil aspects of the Adversary. nnNothing
       is known about cult of the Adversary. '
     abilities:
       - MTR_ByTheDivines_AdversaryH
@@ -99,7 +102,7 @@ deities:
       association and esteem with the Altmeri. However, most aspects of Akatosh which
       seem so important to the mortal races, namely immortality, historicity, and genealogy,
       have conveniently resurfaced in Almalexia, the most popular of Morrowind''s divine
-      Tribunal. \n\nAlmalexia is usually venerated by Dunmers. '
+      Tribunal. nnAlmalexia is usually venerated by Dunmers. '
     abilities:
       - MTR_ByTheDivines_Almalexia
   - id: arkay
@@ -112,7 +115,7 @@ deities:
       rites, and is sometimes associated with the seasons. His priests are staunch opponents
       of necromancy and all forms of the undead. It is said that Arkay did not exist
       before the world was created by the gods under Lorkhan''s trickery. Therefore,
-      he is sometimes called the Mortals'' God. \n\nArkay is usually venerated by Cyrodiils,
+      he is sometimes called the Mortals'' God. nnArkay is usually venerated by Cyrodiils,
       Bosmers and Bretons. '
     abilities:
       - MTR_ByTheDivines_Arkay
@@ -125,7 +128,7 @@ deities:
       through heathen trickery, he fooled them into a bargain that ''bound them to the
       count of winters''. At one time, legends say, Nords only had a lifespan of six
       years due to Orkey''s foul magic. Shor showed up, though, and, through unknown
-      means, removed the curse, throwing most of it onto the nearby Orcs. \n\nOrkey
+      means, removed the curse, throwing most of it onto the nearby Orcs. nnOrkey
       is sometimes venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Orkey
@@ -135,7 +138,7 @@ deities:
       'Ageless One - God of ancestry and secret knowledge, Xarxes began as
       a scribe to Auri-El, and has kept track of all Aldmeri accomplishments, large
       and small, since the beginning of time. He created his wife, Oghma, from his favorite
-      moments in history. \n\nXarxes is usually venerated by Altmers and Bosmers. '
+      moments in history. nnXarxes is usually venerated by Altmers and Bosmers. '
     abilities:
       - MTR_ByTheDivines_Xarxes
   - id: tuwhacca
@@ -146,7 +149,7 @@ deities:
       of the Walkabout, Tu''whacca found a purpose; he became the caretaker of the Far
       Shores, and continues to help Redguards find their way into the afterlife. His
       cult is sometimes associated with Arkay in the more cosmopolitan regions of Hammerfell.
-      \n\nTu''whacca is usually venerated by Redguards. '
+      nnTu''whacca is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Tuwhacca
   - id: azura
@@ -169,7 +172,7 @@ deities:
       'The Bandit God - a trickster spirit of thieves and beggars. Regarded
       as the Pariah, Baan Dar becomes the cleverness or desperate genius of the long-suffering
       Khajiit, whose last minute plans always upset the machinations of their enemies.
-      \n\nBaan Dar is usually venerated by Khajiits and Bosmers. '
+      nnBaan Dar is usually venerated by Khajiits and Bosmers. '
     abilities:
       - MTR_ByTheDivines_Baandar
   - id: boethiah
@@ -211,7 +214,7 @@ deities:
       of Morrowind. He bids you come to Red Mountain. He would grant you counsel and
       power, if only you would pledge that friendship anew. The path to Red Mountain
       is long, and filled with danger, but if you are worthy, you will find there wisdom,
-      and all the power you need to set the world aright. \n\nDagoth Ur is usually venerated
+      and all the power you need to set the world aright. nnDagoth Ur is usually venerated
       by Dunmers. '
   - id: diagna
     name: Diagna
@@ -222,7 +225,7 @@ deities:
       defeat of the Sinistral Mer, as he brought orichalc weapons to the Yokudan people
       to win the fight. In Tamriel, he led a very tight knit group of followers against
       the Orcs of Orsinium during the height of their ancient power, but then faded
-      into obscurity. \n\nDiagna is sometimes venerated by Redguards. '
+      into obscurity. nnDiagna is sometimes venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Diagna
   - id: dibella
@@ -230,7 +233,7 @@ deities:
     description:
       'Goddess of Beauty - Popular god of the Nine Divines. In Cyrodiil,
       she has nearly a dozen different cults, some devoted to women, some to artists
-      and aesthetics, and others to erotic instruction. \n\nDibella is usually venerated
+      and aesthetics, and others to erotic instruction. nnDibella is usually venerated
       by Cyrodiils, Nords and Bretons. '
     abilities:
       - MTR_ByTheDivines_Dibella
@@ -275,7 +278,7 @@ deities:
       way'' for their people. In Tamrielic history this has only happened three times
       -- twice in the first era during the Ra Gada invasion and once during the Tiber
       War. In this last incarnation, the HoonDing was said to have been either a sword
-      or a crown, or both. \n\nHoonDing is usually venerated by Redguards. '
+      or a crown, or both. nnHoonDing is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_HoonDing
   - id: julianos
@@ -284,7 +287,7 @@ deities:
       'God of Wisdom and Logic - Often associated with Jhunal, the Nordic
       father of language and mathematics, Julianos is the Cyrodilic god of literature,
       law, history, and contradiction. Monastic orders founded by Tiber Septim and dedicated
-      to Julianos are the keepers of the Elder Scrolls. \n\nJulianos is usually venerated
+      to Julianos are the keepers of the Elder Scrolls. nnJulianos is usually venerated
       by Cyrodiils and Bretons. '
     abilities:
       - MTR_ByTheDivines_Julianos
@@ -293,7 +296,7 @@ deities:
     description:
       'Rune God - The Nordic god of hermetic orders, father of language and
       mathematics. After falling out of favor with the rest of that pantheon, he became
-      Julianos of the Nine Divines. He is absent in modern Skyrim mythology. \n\nJhunal
+      Julianos of the Nine Divines. He is absent in modern Skyrim mythology. nnJhunal
       is sometimes venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Jhunal
@@ -319,7 +322,7 @@ deities:
       of the Sky spirits. In some legends, she is the first to agree to Lorkhan''s plan
       to invent the mortal plane, and provides the space for its creation in the void.
       She is also associated with rain, a phenomenon said not to occur before the removal
-      of Lorkhan''s divine spark. \n\nKynareth is usually venerated by Cyrodiils and
+      of Lorkhan''s divine spark. nnKynareth is usually venerated by Cyrodiils and
       Bretons. '
     abilities:
       - MTR_ByTheDivines_Kynareth
@@ -328,7 +331,7 @@ deities:
     description:
       'Kiss At the End - Nordic Goddess of the Storm. Widow of Shor and favored
       god of warriors. She is often called the Mother of Men. Her daughters taught the
-      first Nords the use of the thu''um, or Storm Voice. \n\nKyne is usually venerated
+      first Nords the use of the thu''um, or Storm Voice. nnKyne is usually venerated
       by Nords. '
     abilities:
       - MTR_ByTheDivines_Kyne
@@ -348,7 +351,7 @@ deities:
       'Big Moon God and Little Moon God - Aldmeri gods of the Big Moon and
       the Little Moon. Also called Masser or Mara''s Tear and Secunda or Stendarr''s
       Sorrow. In Khajiti religion, Jode and Jone are aspects of the Lunar Lattice, or
-      ja-Kha''jay. Together, the moons represent duality, fate, and luck. \n\nJode and
+      ja-Kha''jay. Together, the moons represent duality, fate, and luck. nnJode and
       Jone are usually venerated by Bosmers and Khajiits. '
     abilities:
       - MTR_ByTheDivines_JodeJone
@@ -359,7 +362,7 @@ deities:
       the Yokudans to the isle of Herne after the destruction of their homeland. She
       has since become assimilated into the mythology of Kynareth. She is still very
       popular in Hammerfell among sailors, and her shrines can be found in most port
-      cities. \n\nTava is usually venerated by Redguards. '
+      cities. nnTava is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Tava
   - id: leki
@@ -370,7 +373,7 @@ deities:
       during the mythic era to decide who would lead the charge against the Sinistral
       Mer. Their swordmasters, though, were so skilled in the Best Known Cuts as to
       be matched evenly. Leki introduced the Ephemeral Feint. Afterwards, a victor emerged
-      and the war with the Aldmer began. \n\nLeki is usually venerated by Redguards. '
+      and the war with the Aldmer began. nnLeki is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Leki
   - id: shezarr
@@ -380,7 +383,7 @@ deities:
       when Akatosh comes to the fore of Imperial religion. Shezarr was the spirit behind
       all human undertaking, especially against Aldmeri aggression. He is sometimes
       associated with the founding of the first Cyrodilic battlemages. In the present
-      age of racial tolerance, Shezarr is all but forgotten. \n\nShezarr is sometimes
+      age of racial tolerance, Shezarr is all but forgotten. nnShezarr is sometimes
       venerated by Cyrodiils. '
     abilities:
       - MTR_ByTheDivines_Shezarr
@@ -391,7 +394,7 @@ deities:
       with Men after the creation of the world. Foreign gods conspire against him and
       bring about his defeat, dooming him to the underworld. Atmoran myths depict him
       as a bloodthirsty warrior king who leads the Nords to victory over their Aldmeri
-      oppressors time and again. Before his doom, Shor was the chief of the gods. \n\nShor
+      oppressors time and again. Before his doom, Shor was the chief of the gods. nnShor
       is usually venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Shor
@@ -401,7 +404,7 @@ deities:
       'Bad Man - In Bretony, the Bad Man is the source of all strife. He
       seems to have started as the god of crop failure, but most modern theologians
       agree that he is a demonized version of the Nordic Shor, born during the dark
-      years after the fall of Saarthal. \n\nSheor is sometimes venerated by Bretons. '
+      years after the fall of Saarthal. nnSheor is sometimes venerated by Bretons. '
     abilities:
       - MTR_ByTheDivines_Sheor
     statsToAlter:
@@ -418,7 +421,7 @@ deities:
       the spirits who followed Sep become trapped here, to live out their lives as mortals.
       Sep is punished by Ruptga for his transgressions, but his hunger lives on as a
       void in the stars, a ''non-space'' that tries to upset mortal entry into the Far
-      Shores. \n\nSep is sometimes venerated by Redguard. '
+      Shores. nnSep is sometimes venerated by Redguard. '
     abilities:
       - MTR_ByTheDivines_Sep
   - id: lorkhan
@@ -444,7 +447,7 @@ deities:
     description:
       'Soul of Anu - Anui-El is seen as Order, the Everlasting Ineffable
       Light, and is dichotomically opposed to Sithis, who represents Chaos, the Corrupting
-      Inexpressible Action.\n\nAnui-El is a part of Altmer tradition. '
+      Inexpressible Action.nnAnui-El is a part of Altmer tradition. '
     abilities:
       - MTR_ByTheDivines_Anuiel
   - id: magnus
@@ -457,7 +460,7 @@ deities:
       needed to construct the mortal plane. He is sometimes represented by an astrolabe,
       a telescope, or, more commonly, a staff. Cyrodilic legends say he can inhabit
       the bodies of powerful magicians and lend them his power. Associated with Zurin
-      Arctus, the Underking. Known to Khajiits as Magrus. \n\nMagnus is usually venerated
+      Arctus, the Underking. Known to Khajiits as Magrus. nnMagnus is usually venerated
       by Altmers, Bretons and Khajiits. '
     abilities:
       - MTR_ByTheDivines_Magnus
@@ -475,7 +478,7 @@ deities:
       some Orsimer cling to the belief that Trinimac still exists and Malacath is a
       separate entity. Goblinkind worships the ''Blue God'', whom they venerate with
       sacred idols of Malacath, painted blue. Associated with Horde King Malooc, an
-      enemy god of the Ra Gada. \n\nMalacath is usually venerated by Orsimers. '
+      enemy god of the Ra Gada. nnMalacath is usually venerated by Orsimers. '
     abilities:
       - MTR_ByTheDivines_Malacath
   - id: trinimac
@@ -486,7 +489,7 @@ deities:
       Men. Boethiah is said to have assumed his shape (in some stories, he even eats
       Trinimac) so that he could convince a throng of Aldmer to listen to him, which
       led to their eventual Chimeri conversion. He vanishes from the mythic stage after
-      this, to return as the dread Malacath. \n\nTrinimac is usually venerated by Orsimers. '
+      this, to return as the dread Malacath. nnTrinimac is usually venerated by Orsimers. '
     abilities:
       - MTR_ByTheDivines_Trinimac
   - id: mauloch
@@ -498,7 +501,7 @@ deities:
       to fill the sky with his sulfurous hatred, later called the ''Year of Winter in
       Summer'', referring to the famed eruption of Red Mountain. The ''Myth of Mauloch''
       a little-known legend which says, in part, that the Orcs had been nomads for two
-      hundred years before the first founding of Orsinium. \n\nMauloch is sometimes
+      hundred years before the first founding of Orsinium. nnMauloch is sometimes
       venerated by Orsimers. '
     abilities:
       - MTR_ByTheDivines_Mauloch
@@ -510,7 +513,7 @@ deities:
       Empire, she is Mother-Goddess. She is sometimes associated with Nir of the ''Anuad'',
       the female principle of the cosmos that gave birth to creation. Depending on the
       religion, she is either married to Akatosh or Lorkhan, or the concubine of both.
-      \n\nMara is usually venerated by Cyrodiils, Nords, Altmers, Bosmers, Khajiits
+      nnMara is usually venerated by Cyrodiils, Nords, Altmers, Bosmers, Khajiits
       and Bretons. '
     abilities:
       - MTR_ByTheDivines_Mara
@@ -520,7 +523,7 @@ deities:
       'Teat God - Yokudan fertility goddess. Fundamental deity in the Yokudan
       pantheon, and the favorite of Ruptga''s wives. Still worshipped in various areas
       of Hammerfell, including Stros M''kai. Morwha is always portrayed as four-armed,
-      so that she can ''grab more husbands''. \n\nMorwha is usually venerated by Redguards. '
+      so that she can ''grab more husbands''. nnMorwha is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Morwha
   - id: mehrunesdagon
@@ -588,7 +591,7 @@ deities:
       'First Breath of Man - Ancient cultural hero god of the Cyro-Nordics.
       Legend portrays him as the Taker of the Citadel, an act of mythic times that established
       Human control over the Valley Heartland. He is often associated with the Nordic
-      powers of thu''um, and therefore with Kynareth. \n\nMorihaus is sometimes venerated
+      powers of thu''um, and therefore with Kynareth. nnMorihaus is sometimes venerated
       by Cyrodiils. '
     abilities:
       - MTR_ByTheDivines_Morihaus
@@ -620,7 +623,7 @@ deities:
     name: Onsi
     description:
       'Boneshaver - Notable warrior god of the Yokudan Ra Gada, Onsi taught
-      Mankind how to pull their knives into swords. \n\nOnsi is usually venerated by
+      Mankind how to pull their knives into swords. nnOnsi is usually venerated by
       Redguards. '
     abilities:
       - MTR_ByTheDivines_Onsi
@@ -632,7 +635,7 @@ deities:
       primal forces. Anu is known to Redguards as Satak and to Khajiits as Ahnurr. Padomay
       is the quintessential form of change, the personification of the primordial force
       of chaos and change who dwells in the Void. Padomay is known to Redguards as Akel
-      and to Khajiits as Fadomai. \n\nAnu and Padomay aren''t actively worshiped. '
+      and to Khajiits as Fadomai. nnAnu and Padomay aren''t actively worshiped. '
     abilities:
       - MTR_ByTheDivines_Anu
   - id: sithis
@@ -642,7 +645,7 @@ deities:
       is most often associated with the Dark Brotherhood, an assassin organization dedicated
       to his worship. He is often associated with serpent-like imagery, and small aspects
       of Sithis have even been known to reveal themselves in the form of ghostly serpents.
-      \n\nSithis is usually venerated by members of Dark Brotherhood. '
+      nnSithis is usually venerated by members of Dark Brotherhood. '
     abilities:
       - MTR_ByTheDivines_Sithis
   - id: peryite
@@ -658,7 +661,7 @@ deities:
     description:
       'The Guardian - Hero-god of the Summerset Isles, who taught the Altmer
       how to naturally live another hundred years by using a shorter walking stride.
-      \n\nPhynaster is usually venerated by Altmers and Bretons. '
+      nnPhynaster is usually venerated by Altmers and Bretons. '
     abilities:
       - MTR_ByTheDivines_Phynaster
     statsToAlter:
@@ -670,7 +673,7 @@ deities:
     description:
       'Footpad - Thief god of the Khajiiti, who grew up in the Black Kiergo
       section of Senchal. The most famous burglar in Elsweyr''s history, Rajhin is said
-      to have stolen a tattoo from the neck of Empress Kintyra as she slept. \n\nRajhin
+      to have stolen a tattoo from the neck of Empress Kintyra as she slept. nnRajhin
       is usually venerated by Khajiits. '
     abilities:
       - MTR_ByTheDivines_Rajhin
@@ -682,7 +685,7 @@ deities:
       him build his own empire, and conquered all of Tamriel except for Morrowind. He
       instituted the rites of becoming Emperor, which included the ritual geas to the
       Amulet of Kings, a soulgem of immense power. His Dynasty was ended by the Dunmeri
-      Morag Tong at the end of the first era. \n\nReman is sometimes venerated by Cyrodiils. '
+      Morag Tong at the end of the first era. nnReman is sometimes venerated by Cyrodiils. '
     abilities:
       - MTR_ByTheDivines_Reman
   - id: riddlethar
@@ -692,7 +695,7 @@ deities:
       was revealed to Elsweyr by the prophet Rid-Thar-ri''Datta, the Mane. The Riddle''Thar
       is more a set of guidelines by which to live than a single entity, but some of
       his avatars like to appear as humble messengers of the gods. Also known as the
-      Sugar God. \n\nRiddle''Thar is usually venerated by Khajiits. '
+      Sugar God. nnRiddle''Thar is usually venerated by Khajiits. '
     abilities:
       - MTR_ByTheDivines_Riddlethar
   - id: ruptga
@@ -704,7 +707,7 @@ deities:
       one lifetime. Tall Papa set the stars in the sky to show lesser spirits how to
       do this, too. When there were too many spirits to keep track of, though, Ruptga
       created a helper out the dead skin of past worlds, Sep, who later creates the
-      world of mortals. \n\nRuptga is usually venerated by Redguards. '
+      world of mortals. nnRuptga is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Ruptga
     statsToAlter:
@@ -731,7 +734,7 @@ deities:
       one world to begin the next. In Yokudan mythology, Satakal had done (and still
       does) this many times over, a cycle which prompted the birth of spirits that could
       survive the transition. These spirits ultimately become the Yokudan pantheon.
-      Popular god of the Alik''r nomads. \n\nSatakal is usually venerated by Redguards. '
+      Popular god of the Alik''r nomads. nnSatakal is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Satakal
   - id: sothasil
@@ -739,7 +742,7 @@ deities:
     description:
       'Mystery of Morrowind - God of the Dunmer, Sotha Sil is the least known
       of the divine Tribunal. He is said to be reshaping the world from his hidden,
-      Clockwork City. \n\nSotha Sil is usually venerated by Dunmers. '
+      Clockwork City. nnSotha Sil is usually venerated by Dunmers. '
     abilities:
       - MTR_ByTheDivines_SothaSil
   - id: stendarr
@@ -748,7 +751,7 @@ deities:
       'God of Mercy - God of the Nine Divines, Stendarr has evolved from
       his Nordic origins into a deity of compassion or, sometimes, righteous rule. He
       is said to have accompanied Tiber Septim in his later years. Patron of the Imperial
-      Legion. In early Altmeri legends, Stendarr is the apologist of Men. \n\nStendarr
+      Legion. In early Altmeri legends, Stendarr is the apologist of Men. nnStendarr
       is usually venerated by Cyrodiils, Bretons, Altmers and Bosmers. '
     abilities:
       - MTR_ByTheDivines_Stendarr
@@ -756,7 +759,7 @@ deities:
     name: S'rendarr
     description:
       'The Runt - S''rendarr is Khajiiti god of mercy, compassion, charity,
-      and justice. \n\nS''rendarr is usually venerated by Khajiits. '
+      and justice. nnS''rendarr is usually venerated by Khajiits. '
     abilities:
       - MTR_ByTheDivines_Srendarr
   - id: stuhn
@@ -764,7 +767,7 @@ deities:
     description:
       'God of Ransom - Nordic precursor to Stendarr, brother of Tsun. Shield-thane
       of Shor, Stuhn was a warrior god that fought against the Aldmeri pantheon. He
-      showed Men how to take, and the benefits of taking, prisoners of war. \n\nStuhn
+      showed Men how to take, and the benefits of taking, prisoners of war. nnStuhn
       is usually venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Stuhn
@@ -775,7 +778,7 @@ deities:
       Bendu Olo in the Fall of the Sload. Through judicious use of his magical ring,
       Syrabane saved many from the scourge of the Thrassian Plague. He is also called
       the Apprentices'' God, for he is a favorite of the younger members of the Mages
-      Guild. \n\nSyrabane is usually venerated by Altmers. '
+      Guild. nnSyrabane is usually venerated by Altmers. '
     abilities:
       - MTR_ByTheDivines_Syrabane
   - id: talos
@@ -785,7 +788,7 @@ deities:
       is the most important hero-god of Mankind. He conquered all of Tamriel and ushered
       in the Third Era. Also called Ysmir, ''Dragon of the North''. He withstood the
       power of the Greybeards'' voices long enough to hear their prophecy. Later, many
-      Nords could not look on him without seeing a dragon. \n\nTalos is usually venerated
+      Nords could not look on him without seeing a dragon. nnTalos is usually venerated
       by Cyrodiils and Nords. '
     abilities:
       - MTR_ByTheDivines_Talos
@@ -808,7 +811,7 @@ deities:
     description:
       'Master of Morrowind - is the Guardian Warrior-Poet God-King of the
       holy land of Vvardenfell, and ever-vigilant protector from the dark gods of the
-      Red Mountain, the gate to hell. \n\nVivec is usually venerated by Dunmers. '
+      Red Mountain, the gate to hell. nnVivec is usually venerated by Dunmers. '
     abilities:
       - MTR_ByTheDivines_Vivec
   - id: yffre
@@ -823,7 +826,7 @@ deities:
       mortals had a semblance of safety in the new world, because they could finally
       understand it. Y''ffre is sometimes called the Storyteller, for the lessons he
       taught the first Bosmer. Some Bosmer still possess the knowledge of the chaos
-      times, which they can use to great effect. \n\nY''ffre is usually venerated by
+      times, which they can use to great effect. nnY''ffre is usually venerated by
       Bosmers, Altmers and Bretons. '
     abilities:
       - MTR_ByTheDivines_Yffre
@@ -834,7 +837,7 @@ deities:
       the Bastard Sons of Ahnurr. He was said to be ''wise and kind'', and created the
       first flower in order to convince Nirni to be his mate. Y''ffer made the forest
       people Elves always and never beasts. And Y''ffer named them Bosmer. And from
-      that moment they were no longer in the same litter as the Khajiit. \n\nY''ffer
+      that moment they were no longer in the same litter as the Khajiit. nnY''ffer
       is sometimes venerated by Khajiits. '
     abilities:
       - MTR_ByTheDivines_Yffer
@@ -844,7 +847,7 @@ deities:
       'God of Work and Commerce - Member of the Nine Divines, Zenithar is
       understandably associated with Z''en. In the Empire, however, he is a far more
       cultivated god of merchants and middle nobility. His worshippers say, despite
-      his mysterious origins, Zenithar is the god ''that will always win''. \n\nZenithar
+      his mysterious origins, Zenithar is the god ''that will always win''. nnZenithar
       is usually venerated by Cyrodiils and Bretons. '
     abilities:
       - MTR_ByTheDivines_Zenithar
@@ -856,7 +859,7 @@ deities:
       guards the Whalebone Bridge to the Hall of Valor of Sovngarde. At Shor''s bidding,
       he has taken on the role of the master of trials, asking new arrivals to the utopia
       to prove their strength in combat against him before they can enter the Hall.
-      \n\nTsun is usually venerated by Nords. '
+      nnTsun is usually venerated by Nords. '
     abilities:
       - MTR_ByTheDivines_Tsun
   - id: zen
@@ -866,14 +869,14 @@ deities:
       in both Argonian and Akaviri mythologies, perhaps introduced into Valenwood by
       Kothringi sailors. Ostensibly an agriculture deity, Z''en sometimes proves to
       be an entity of a much higher cosmic order. His worship has all but died out shortly
-      after the Knahaten Flu. \n\nZ''en is sometimes venerated by Bosmers and Argonians. '
+      after the Knahaten Flu. nnZ''en is sometimes venerated by Bosmers and Argonians. '
     abilities:
       - MTR_ByTheDivines_Zen
   - id: zeht
     name: Zeht
     description:
       'God of Farms - Yokudan god of agriculture. Renounced his father after
-      the world was created, which is why Ruptga makes it so hard to grow food. \n\nZeht
+      the world was created, which is why Ruptga makes it so hard to grow food. nnZeht
       is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Zeht
@@ -883,7 +886,7 @@ deities:
       'Mannimarco, an Altmer lich, is the leader of the Order of the Black
       Worm and an enemy of the Mages Guild. He is described as ''world''s first of the
       undying liches'', despite the fact that there had been many immortal liches before
-      him. \n\nGod of Worms is sometimes venerated by Necromancers. '
+      him. nnGod of Worms is sometimes venerated by Necromancers. '
     abilities:
       - MTR_ByTheDivines_Mannimarco
     statsToAlter:
@@ -902,7 +905,7 @@ deities:
       on his ebony tower shield is the symbol of a red rose, a flower known for blooming
       on battlefields where he appears. According to legend, he appears on the field
       of battle to reconcile opposing sides and prevent bloodshed. He''s an enemy of
-      all Daedric Princes except Sheogorath aswell as Stendarr and Mages Guild. \n\nEbonarm
+      all Daedric Princes except Sheogorath aswell as Stendarr and Mages Guild. nnEbonarm
       is sometimes venerated by members of Fighters Guild. '
     abilities:
       - MTR_ByTheDivines_Ebonarm
@@ -913,7 +916,7 @@ deities:
       swamps of Black Marsh. Argonians are known to have deep connections with the Hist,
       calling themselves ''people of the root'', and licking the leaking sap of their
       trunks in religious rites. Others claim the trees are, in fact, a sentient race,
-      more ancient than all the races of man and mer. \n\nThe Hist are usually venerated
+      more ancient than all the races of man and mer. nnThe Hist are usually venerated
       by Argonians. '
     abilities:
       - MTR_ByTheDivines_Hist

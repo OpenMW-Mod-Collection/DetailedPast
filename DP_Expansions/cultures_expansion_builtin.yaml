@@ -1,4 +1,4 @@
-cultures:
+culture:
   - id: cantemiric
     name: Cantemiric
     description:
@@ -33,7 +33,7 @@ cultures:
   - id: oshornim
     name: Osh Ornim
     description:
-      'Osh Ornim - \"Iron Orcs\" - are Orsimer living in the Dragontail mountains
+      'Osh Ornim - "Iron Orcs" - are Orsimer living in the Dragontail mountains
       of Hammerfell. It''s a society of miners, smiths, and brutal warriors. '
     abilities:
       - mtrCultures_Oshornim
@@ -42,7 +42,7 @@ cultures:
   - id: kushragornim
     name: Kushrag Ornim
     description:
-      Kushrag Ornim - \"Sea Orcs\" - are Orsimer said to be living on various
+      Kushrag Ornim - "Sea Orcs" - are Orsimer said to be living on various
       islands on the western coast of Tamriel. One of the biggest fears of Eltheric
       Ocean seafarers is meeting a Sea Orc vessel. Some people believe that Kushrag
       Ornim are descendandts of Lefthanded Elves of Yokuda.
@@ -53,7 +53,7 @@ cultures:
   - id: nelgragornim
     name: Nelgrag Ornim
     description:
-      Nelgrag Ornim - \"Swamp Orcs\" - are Orsimer said to be living in parts
+      Nelgrag Ornim - "Swamp Orcs" - are Orsimer said to be living in parts
       of Black Marsh. These elusive people are rarely seen and often mistook for a rare
       subrace of Argonians.
     abilities:
@@ -63,7 +63,7 @@ cultures:
   - id: ugrashornim
     name: Ugrash Ornim
     description:
-      'Ugrash Ornim - \"Snow Orcs\" - are Orsimer living in desolate parts
+      'Ugrash Ornim - "Snow Orcs" - are Orsimer living in desolate parts
       of Skyrim. They are isoliationistic, but peaceful people. '
     abilities:
       - mtrCultures_Ugrashornim

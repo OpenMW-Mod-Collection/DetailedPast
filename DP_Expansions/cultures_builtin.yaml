@@ -1,11 +1,11 @@
-cultures:
+culture:
   - id: none
     name: --None--
-    description: null
+    description: No culture.
   - id: agrunornim
     name: Agrun Ornim
     description:
-      Agrun Ornim - \"Deep Orcs\" - are Orsimer living in the ancient Dwemer
+      Agrun Ornim - "Deep Orcs" - are Orsimer living in the ancient Dwemer
       strongholds of Rourken clan in Hammerfell. They adopted Dwemer fashion and wear
       stylized beard and hairstyles of the long extinct Dwarves. More superstitious
       inhabitants of neighbouring areas even started believin that Dwemer never disappeared,
@@ -42,7 +42,7 @@ cultures:
   - id: folrashornim
     name: Folrash Ornim
     description:
-      Folrash Ornim - \"Sand Orcs\" - is a term used to describe two separate,
+      Folrash Ornim - "Sand Orcs" - is a term used to describe two separate,
       but ultimately very similar nomadic cultures which came to existence due to convergent
       evolution. Orsimer of Alik'r desert in Hammerfell and Orsimer of Ne Quin-al desert
       in Elsweyr, though not closely related, exhibit similar traits and culture. Not
@@ -70,7 +70,7 @@ cultures:
   - id: folshornim
     name: Folsh Ornim
     description:
-      Folsh Ornim - \"Ash Orcs\" - are barbarian, Malacath worshipping Orsimer
+      Folsh Ornim - "Ash Orcs" - are barbarian, Malacath worshipping Orsimer
       living on the island of Vvardenfell often occupying ruined Daedric Shrines and
       ancient Dunmer strongholds.
     abilities:
@@ -131,7 +131,7 @@ cultures:
   - id: sagraornim
     name: Sagra Ornim
     description:
-      Sagra Ornim - \"Wood Orcs\" - are Orsimer living in forests of Valenwood.
+      Sagra Ornim - "Wood Orcs" - are Orsimer living in forests of Valenwood.
       Smaller than other Orcs, they are expert tree-climbers and trackers. Since they
       tend to worship Mauloch and don't adhere to the Green Pact they established a
       strong trading contacts with local Bosmer supplying them with items made of materials
@@ -159,7 +159,7 @@ cultures:
   - id: krazornim
     name: Kraz Ornim
     description:
-      Kraz Ornim - \"Mountain Orcs\" - are Orsimer living in the mountain
+      Kraz Ornim - "Mountain Orcs" - are Orsimer living in the mountain
       ranges of High Rock. They inhabit the most recognized of Orcish entities - Orsinium
       - and have recently rejected Malacath worship in favor of renewing of Trinimac
       worship.
@@ -195,7 +195,7 @@ cultures:
   - id: rielleie
     name: Rielleie
     description:
-      Rielleie - \"The Beautiful\" - are a movement aiming to shake up Altmer
+      Rielleie - "The Beautiful" - are a movement aiming to shake up Altmer
       society. They believe that Summerset Islands need let go of its past in order
       to move forward. Rielleie methods are radical, they seek to destroy monuments
       and murder members of aristocracy.
@@ -265,8 +265,8 @@ cultures:
   - id: meldise
     name: Meldise
     description:
-      Meldis - \"exiled\" - are Altmer who were banished from Summerset Islands
-      for breaking the rules of the so-called \"ideal society\". Alcharyai regard exile
+      Meldis - "exiled" - are Altmer who were banished from Summerset Islands
+      for breaking the rules of the so-called "ideal society". Alcharyai regard exile
       as equivalent of death sentence.
     abilities:
       - mtrCultures_Meldise
@@ -300,7 +300,7 @@ cultures:
   - id: alcharyae
     name: Alcharyae
     description:
-      Alcharyai - \"Highest Elves\" - are those Altmer who adhere to ancient
+      Alcharyai - "Highest Elves" - are those Altmer who adhere to ancient
       customs. Over hundreds of generations they have bred themselves into a racially
       pure line, and are now almost identical to one another in appearance. They despise
       other Elves as unsophisticated churls and barely consider the non-Aldmeri races
@@ -346,7 +346,7 @@ cultures:
   - id: lukiul
     name: Lukiul
     description:
-      Lukiul or \"assimilated\" are those Argonians who abandoned or were
+      Lukiul or "assimilated" are those Argonians who abandoned or were
       forced to abandon their traditional customs in favor of foreign culture, be that
       of the Empire or another.
     abilities:
@@ -1095,7 +1095,7 @@ cultures:
   - id: elinhi
     name: Elin-Hi
     description:
-      Elin-Hi - \"strong who delve in magic\" - are inhabitants of the area
+      Elin-Hi - "strong who delve in magic" - are inhabitants of the area
       around city of Elinhir in Eastern Hammerfell. Elinhir is a city of contradictions,
       it's a home to Crown Redguard who adopted Colovian fashion and taste, it's a city
       of soldierly people yet it's nicknamed 'The City of Mages'.
@@ -1131,7 +1131,7 @@ cultures:
   - id: satakalugak
     name: Satakal'Ugak
     description:
-      Satakals or Satakal'Ugak - \"rage-with-Satakal\" - are devotees of
+      Satakals or Satakal'Ugak - "rage-with-Satakal" - are devotees of
       Satakal the Serpent God. They are beggar-bandit-madmen pretending to be snakes,
       often rolling in the dirt completely naked and attacking passersby by nipping
       at their legs. Satakals are also known for ritual scarification, the so-called
@@ -1209,7 +1209,7 @@ cultures:
   - id: ragada
     name: Ra'Gada
     description:
-      Ra'Gada - \"warrior wave\" - also known as Forebears are Redguard descendants
+      Ra'Gada - "warrior wave" - also known as Forebears are Redguard descendants
       of warrior wave of Yokudans who first reached Tamriel. They are more nomadic than
       Na-Totambu and adopted Imperial and Breton gods - or at least their names - Crown
       view this as outrageous non-traditional practices.
@@ -1245,7 +1245,7 @@ cultures:
   - id: natotambu
     name: Na-Totambu
     description:
-      Na-Totambu - \"ruling\" - also known as Crowns are Redguard descendants
+      Na-Totambu - "ruling" - also known as Crowns are Redguard descendants
       of old ruling class of Yokuda. They still honor the ancient Redguard ways and
       worship traditional Yokudan divines.
     abilities:
@@ -1585,9 +1585,9 @@ cultures:
   - id: jovansa
     name: Jovansa
     description:
-      'Jovansa which translates to \"those who secure their future\" are
+      'Jovansa which translates to "those who secure their future" are
       communities of Khajiits who are hiding their beastfolk appearance and pretend
-      to be Mer. Called Ririnajiit - \"compulsive liars\" - by other Khajiit they nonetheless
+      to be Mer. Called Ririnajiit - "compulsive liars" - by other Khajiit they nonetheless
       shave off their fur and plan conception and birth carefully to make sure the offspring
       is of Ohmes stock. Eventhough these practices are widely frowned upon, they remain
       entrenched in regions where attitudes towards Khajiit are hostile such as Morrowind

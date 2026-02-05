@@ -1,30 +1,13 @@
 local vfs = require("openmw.vfs")
 local markup = require('openmw.markup')
 
-local Detail = require("scripts.LineageAndCulture.model.detail")
+require("scripts.DetailedPast.utils.consts")
+local Detail = require("scripts.DetailedPast.model.detail")
 
 local details = {
-    lineages = {
-        none = Detail:new({
-            id = "none",
-            name = "-None-",
-            description = "No lineage."
-        })
-    },
-    cultures = {
-        none = Detail:new({
-            id = "none",
-            name = "-None-",
-            description = "No culture."
-        })
-    },
-    deities  = {
-        none = Detail:new({
-            id = "none",
-            name = "-None-",
-            description = "No worshipped deity."
-        })
-    },
+    [DetailTypes.lineage] = {},
+    [DetailTypes.culture] = {},
+    [DetailTypes.deity]   = {},
 }
 
 local function parseExpansions()
@@ -42,7 +25,7 @@ local function parseExpansions()
                 "Detail type: " .. detailType .. "\n" ..
                 "File name: " .. fileName)
             for _, detailData in ipairs(expansionDetails) do
-                table.insert(details[detailType], Detail:new(detailData))
+                details[detailType][detailData.id] = Detail:new(detailData)
             end
         end
     end

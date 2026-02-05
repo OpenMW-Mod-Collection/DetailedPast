@@ -1,7 +1,7 @@
-lineages:
+lineage:
   - id: none
     name: -None-
-    description: null
+    description: No lineage.
   - id: spriggan
     name: Spriggan
     description: Spriggans are a race of humanoid tree-spirits.
@@ -501,7 +501,7 @@ lineages:
     name: Naga
     description:
       'Naga are a breed of Argonians who live in deeper parts of Black Marsh.
-      They are described as having \"huge mouths filled with dripping needle-like fangs\". '
+      They are described as having "huge mouths filled with dripping needle-like fangs". '
     abilities:
       - mtrLineage_Naga
     statsToAlter:
@@ -608,7 +608,7 @@ lineages:
       nimble and quick in body and wit, and because of their curious natures and natural
       agility, Wood Elves are especially suitable as scouts, agents, and thieves. But
       most of all, the Wood Elves are known for their skills with bows; there are no
-      finer archers in all of Tamriel.\n\nAdmixtre of Bosmer blood flowing in your veins
+      finer archers in all of Tamriel.nnAdmixtre of Bosmer blood flowing in your veins
       grants you bonus speed and agility at a cost of penalty to endurance and strength.
     abilities:
       - mtrLineage_Bosmer

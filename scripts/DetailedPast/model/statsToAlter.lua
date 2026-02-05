@@ -76,9 +76,9 @@ end
 
 function StatsToAlter:__tostring()
     return "  {" ..
-        "\n    type:  " .. self.type ..
-        "\n    stat:  " .. self.stat ..
-        "\n    value:  " .. tostring(self.value) ..
+        "\n    type: " .. self.type ..
+        "\n    stat: " .. self.stat ..
+        "\n    value: " .. tostring(self.value) ..
     "  \n}"
 end
 
