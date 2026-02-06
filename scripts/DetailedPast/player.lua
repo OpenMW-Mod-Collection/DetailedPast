@@ -3,7 +3,8 @@ local I = require("openmw.interfaces")
 
 require("scripts.DetailedPast.utils.dependencies")
 require("scripts.DetailedPast.utils.consts")
-local details = require("scripts.DetailedPast.logic.expansionParser")
+require("scripts.DetailedPast.ui.statWindow")
+local allDetails = require("scripts.DetailedPast.logic.expansionParser")
 
 CheckDependency(
     self,
@@ -11,33 +12,54 @@ CheckDependency(
     "StatsWindow.omwscripts",
     I.StatsWindow,
     1,
-    I.StatsWindow and I.StatsWindow.VERSION or -1)
+    I.StatsWindow and I.StatsWindow.VERSION or -1
+)
 
-local API = I.StatsWindow
-local C = API.Constants
+local currDetails = {
+    culture = allDetails["culture"].none,
+    lineage = allDetails["lineage"].none,
+    deity = allDetails["deity"].none
+}
+for detailType, detail in pairs(currDetails) do
+    InitDetailLine(detail, detailType)
+end
 
-local function pickDetail(detailType, detailId)
-    if not (details[detailType] and details[detailType][detailId]) then
+local function onSave()
+    return currDetails
+end
+
+local function onLoad(saveData)
+    currDetails = saveData
+end
+
+local function setDetail(detailType, detailId)
+    if not (allDetails[detailType] and allDetails[detailType][detailId]) then
         return
     end
 
-    local detail = details[detailType][detailId]
+    local newDetail = allDetails[detailType][detailId]
+    if newDetail == currDetails[detailType]
+        or not newDetail:raceIsWhitelisted(self)
+    then
+        return
+    end
 
-    API.addLineToSection(DetailTypes.culture, C.DefaultSections.LEVEL_STATS, {
-        label = DetailNames[detailType],
-        labelColor = C.Colors.DEFAULT_LIGHT,
-        value = function ()
-            return { string = detail.name }
-        end,
-        tooltip = function ()
-            return API.TooltipBuilders.HEADER(detail.name, detail.description)
-        end
-    })
+    currDetails[detailType]:removeBonuses(self)
+    currDetails[detailType] = newDetail
+    currDetails[detailType]:addBonuses(self)
+    UpdateDetailLine(currDetails[detailType], detailType)
 end
 
+-- setDetail("deity", "allmaker")
+-- setDetail("deity", "akatosh")
+
 return {
+    engineHandlers = {
+        onSave = onSave,
+        onLoad = onLoad,
+    },
     interfaceName = "DetailedPast",
     interface = {
-        pickDetail = pickDetail
-    }
+        setDetail = setDetail,
+    },
 }

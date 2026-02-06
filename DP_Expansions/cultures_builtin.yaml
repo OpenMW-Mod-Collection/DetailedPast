@@ -1,7 +1,4 @@
 culture:
-  - id: none
-    name: --None--
-    description: No culture.
   - id: agrunornim
     name: Agrun Ornim
     description:

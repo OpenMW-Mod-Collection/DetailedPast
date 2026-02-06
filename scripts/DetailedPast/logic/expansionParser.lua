@@ -5,9 +5,27 @@ require("scripts.DetailedPast.utils.consts")
 local Detail = require("scripts.DetailedPast.model.detail")
 
 local details = {
-    [DetailTypes.lineage] = {},
-    [DetailTypes.culture] = {},
-    [DetailTypes.deity]   = {},
+    [DetailTypes.lineage] = {
+        none = Detail:new({
+            id = "none",
+            name = "-None-",
+            description = "No lineage."
+        })
+    },
+    [DetailTypes.culture] = {
+        none = Detail:new({
+            id = "none",
+            name = "-None-",
+            description = "No culture."
+        })
+    },
+    [DetailTypes.deity] = {
+        none = Detail:new({
+            id = "none",
+            name = "-None-",
+            description = "No worshipped deity."
+        })
+    },
 }
 
 local function parseExpansions()
@@ -21,7 +39,7 @@ local function parseExpansions()
 
         for detailType, expansionDetails in pairs(expansion) do
             assert(details[detailType],
-                "Unkown detail type.\n"..
+                "Unkown detail type.\n" ..
                 "Detail type: " .. detailType .. "\n" ..
                 "File name: " .. fileName)
             for _, detailData in ipairs(expansionDetails) do

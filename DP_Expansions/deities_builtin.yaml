@@ -1,7 +1,4 @@
 deity:
-  - id: none
-    name: -None-
-    description: No worshipped deity.
   - id: akatosh
     name: Akatosh
     description:
@@ -119,6 +116,10 @@ deity:
       Bosmers and Bretons. '
     abilities:
       - MTR_ByTheDivines_Arkay
+    statsToAlter:
+      - type: skill
+        stat: conjuration
+        value: -100
   - id: orkey
     name: Orkey
     description:
@@ -152,6 +153,10 @@ deity:
       nnTu''whacca is usually venerated by Redguards. '
     abilities:
       - MTR_ByTheDivines_Tuwhacca
+    statsToAlter:
+      - type: skill
+        stat: conjuration
+        value: -100
   - id: azura
     name: Azura
     description:
@@ -450,6 +455,10 @@ deity:
       Inexpressible Action.nnAnui-El is a part of Altmer tradition. '
     abilities:
       - MTR_ByTheDivines_Anuiel
+    statsToAlter:
+      - type: skill
+        stat: alteration
+        value: -100
   - id: magnus
     name: Magnus
     description:
@@ -567,6 +576,10 @@ deity:
       collect human specimens. "
     abilities:
       - MTR_ByTheDivines_Meridia
+    statsToAlter:
+      - type: skill
+        stat: conjuration
+        value: -100
   - id: molagbal
     name: Molag Bal
     description:

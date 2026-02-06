@@ -1,7 +1,4 @@
 lineage:
-  - id: none
-    name: -None-
-    description: No lineage.
   - id: spriggan
     name: Spriggan
     description: Spriggans are a race of humanoid tree-spirits.

@@ -1,24 +1,24 @@
 local types = require("openmw.types")
 
----@class StatsToAlter
+---@class StatToAlter
 ---@field type string
 ---@field stat string
 ---@field value number
-local StatsToAlter = {}
-StatsToAlter.__index = StatsToAlter
+local StatToAlter = {}
+StatToAlter.__index = StatToAlter
 
 local typeMap = {
     attribute = "attributes",
     skill = "skills"
 }
 
-local errorTemplate = "Couldn't validate the StatsToAlter.\n" ..
+local errorTemplate = "Couldn't validate the StatToAlter.\n" ..
     "%s\n" ..
     "\n" ..
     "StatsToAlter:\n" ..
     "%s"
 
----@param obj StatsToAlter
+---@param obj StatToAlter
 local function validate(obj)
     local objString = tostring(obj)
     -- required fields
@@ -63,8 +63,8 @@ local function validate(obj)
     )
 end
 
-function StatsToAlter:new(yamlStatsData)
-    local obj = setmetatable({}, StatsToAlter)
+function StatToAlter:new(yamlStatsData)
+    local obj = setmetatable({}, StatToAlter)
     obj.type  = typeMap[string.lower(yamlStatsData.type)]
     obj.stat  = string.lower(yamlStatsData.stat)
     obj.value = yamlStatsData.value
@@ -74,7 +74,7 @@ function StatsToAlter:new(yamlStatsData)
     return obj
 end
 
-function StatsToAlter:__tostring()
+function StatToAlter:__tostring()
     return "  {" ..
         "\n    type: " .. self.type ..
         "\n    stat: " .. self.stat ..
@@ -82,4 +82,4 @@ function StatsToAlter:__tostring()
     "  \n}"
 end
 
-return StatsToAlter
+return StatToAlter
